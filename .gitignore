@@ -105,6 +105,3 @@ venv.bak/
 
 # data
 data/*
-
-# models
-models/*
