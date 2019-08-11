@@ -1,3 +1,3 @@
-structure project repo for ds
+example structure project repo for ds
 --------
 
