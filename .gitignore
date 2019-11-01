@@ -105,8 +105,12 @@ venv.bak/
 
 # data
 data/*
+!data/README.md
 !data/external/.gitkeep
 !data/interim/.gitkeep
 !data/processed/.gitkeep
 !data/raw/.gitkeep
 !data/features/.gitkeep
+
+# models
+models/README.md
