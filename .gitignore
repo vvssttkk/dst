@@ -113,4 +113,5 @@ data/*
 !data/features/.gitkeep
 
 # models
-models/README.md
+models/*
+!models/README.md
