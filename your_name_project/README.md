@@ -7,7 +7,7 @@ source code for use in this project
 __________________
 examples structure:
 ```
-├── [your name project]      <- Source code for use in this project.
+├── [your_name_project]      <- Source code for use in this project.
 │   ├── __init__.py          <- Makes src a Python module
 │   │
 │   ├── data                 <- Scripts to download or generate data
