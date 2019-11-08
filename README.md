@@ -1,4 +1,4 @@
-example structure project repo for ds
+example structure repo for ds projects
 --------
 
 in this repo u can look at default template for DS or ML projects
