@@ -23,4 +23,5 @@ examples structure:
 │   │
 │   ├── visualization        <- Scripts to create exploratory and results oriented visualizations
 │   │    └── visualize.py
+│
 ```
