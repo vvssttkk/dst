@@ -7,6 +7,8 @@ source code for use in this project
 examples structure:
 ```
 [your_name_project]
+├── __init__.py           <- makes src a python module
+│
 ├── data                  <- scripts to download or generate data
 │   └── make_dataset.py 
 │
@@ -20,6 +22,5 @@ examples structure:
 ├── visualization         <- scripts to create exploratory and results oriented visualizations
 │   └── visualize.py
 │
-├── __init__.py           <- makes src a python module
 └── README.md
 ```
