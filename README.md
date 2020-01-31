@@ -7,6 +7,6 @@ similar libs &/| approaches:
 * [cookiecutter](https://github.com/drivendata/cookiecutter-data-science)
 * [ocean](https://github.com/surfstudio/Ocean)
 
-another cool libs for team:
+another cool libs for projects:
 * [dvc](http://dvc.org)
 * [pre-commit](https://pre-commit.com)
