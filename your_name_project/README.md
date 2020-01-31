@@ -7,18 +7,18 @@ source code for use in this project
 examples structure:
 ```
 [your_name_project]
-├── data                 <- Scripts to download or generate data
+├── data                 <- scripts to download or generate data
 │   └── make_dataset.py 
 │
-├── features             <- Scripts to turn raw data into features for modeling
+├── features             <- scripts to turn raw data into features for modeling
 │   └── build_features.py
 │
-├── models               <- Scripts to train models and then use trained models to make predictions
+├── models               <- scripts to train models and then use trained models to make predictions
 │   ├── predict_model.py
 │   └── train_model.py
 │
-├── visualization        <- Scripts to create exploratory and results oriented visualizations
+├── visualization        <- scripts to create exploratory and results oriented visualizations
 │   └─── visualize.py
 │
-└── __init__.py          <- Makes src a Python module
+└── __init__.py          <- makes src a python module
 ```
