@@ -9,3 +9,4 @@ similar libs &/| approaches:
 
 another cool libs for team:
 * [dvc](http://dvc.org)
+* [pre-commit](https://pre-commit.com)
