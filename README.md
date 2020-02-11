@@ -9,4 +9,4 @@ similar libs &/| approaches:
 
 another cool libs for projects:
 * [dvc](http://dvc.org)
-* [pre-commit](https://pre-commit.com)
+* [pre-commit](https://pre-commit.com) using [github action](https://github.com/features/actions)
