@@ -9,4 +9,5 @@ similar libs &/| approaches:
 
 another cool libs for projects:
 * [dvc](http://dvc.org)
-* [pre-commit](https://pre-commit.com) using [github action](https://github.com/features/actions)
+* [pre-commit](https://pre-commit.com) (from [github action](https://github.com/features/actions))
+* [hybra](https://hydra.cc) for elegantly configuring complex applications
