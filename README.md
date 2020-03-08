@@ -10,5 +10,5 @@ similar libs &/| approaches:
 another cool libs for projects:
 * [dvc](http://dvc.org)
 * [pre-commit](https://pre-commit.com) (from [github action](https://github.com/features/actions))
-* [restyled](https://github.com/restyled-io/restyled.io) (from github action too)
+* [restyled](https://restyled.io) (from github action too)
 * [hybra](https://hydra.cc) for elegantly configuring complex applications
