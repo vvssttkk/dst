@@ -5,6 +5,7 @@ in this repo u can look at default template for DS/ML/DL projects or similar are
 
 similar libs &/| approaches:
 * [cookiecutter](https://github.com/drivendata/cookiecutter-data-science)
+* [kedro](https://github.com/quantumblacklabs/kedro/)
 * [ocean](https://github.com/surfstudio/Ocean)
 
 another cool libs for projects:
