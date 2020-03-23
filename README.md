@@ -1,5 +1,4 @@
-example structure repo for DS/ML/DL projects
---------
+# example structure repo for DS/ML/DL projects
 
 in this repo u can look at default template for DS/ML/DL projects or similar area
 
