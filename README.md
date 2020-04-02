@@ -9,7 +9,7 @@ similar libs &/| approaches:
 
 another cool libs for projects:
 * [dvc](http://dvc.org)
-* [hybra](https://hydra.cc) for elegantly configuring complex applications
+* [hydra](https://hydra.cc) for elegantly configuring complex applications
 * [github cli](https://cli.github.com)
 * [pre-commit](https://pre-commit.com) (from [github action](https://github.com/features/actions))
 * [restyled](https://restyled.io) (from github action too)
