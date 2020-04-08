@@ -9,7 +9,7 @@ examples structure:
 ├── __init__.py           <- makes src a python module
 │
 ├── data                  <- scripts to download or generate data
-│   └── make_dataset.py 
+│   └── make_dataset.py
 │
 ├── features              <- scripts to turn raw data into features for modeling
 │   └── build_features.py
