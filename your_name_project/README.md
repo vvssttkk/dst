@@ -1,4 +1,4 @@
-# [your name project] or src
+# [your_name_project] or src
 
 source code for use in this project
 
