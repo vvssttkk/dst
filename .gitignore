@@ -110,5 +110,6 @@ data/*
 models/*
 
 # another
-.gitkeep
-README.md
+
+# vscode
+.vscode
