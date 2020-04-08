@@ -4,6 +4,7 @@ source code for use in this project
 
 ----
 examples structure:
+
 ```
 [your_name_project]
 ├── __init__.py           <- makes src a python module
