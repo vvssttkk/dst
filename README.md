@@ -15,3 +15,4 @@ another cool libs for projects:
 * [github cli](https://cli.github.com)
 * [pre-commit](https://pre-commit.com) (from [github action](https://github.com/features/actions))
 * [restyled](https://restyled.io) (from github action too)
+* [vale](https://errata-ai.gitbook.io/vale/)
