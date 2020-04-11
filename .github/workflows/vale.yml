@@ -1,8 +1,9 @@
-name: Linting
-on: [push]
+name: linting
+
+on: [push, pull_request]
 
 jobs:
-  prose:
+  linting:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
