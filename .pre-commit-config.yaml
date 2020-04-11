@@ -27,6 +27,6 @@ repos:
     -   id: black
         args: ['--line-length=120','--skip-string-normalization']
 -   repo: https://github.com/prettier/prettier
-    rev: ""
+    rev: 2.0.3
     hooks:
     -   id: prettier
