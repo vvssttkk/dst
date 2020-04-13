@@ -8,12 +8,12 @@ similar libs &/| approaches:
 * [ocean](https://github.com/surfstudio/Ocean)
 * [kedro](https://github.com/quantumblacklabs/kedro/)
 
-another cool libs for projects:
+another cool libs for project:
 
 * [dvc](http://dvc.org)
 * [hydra](https://hydra.cc) for elegantly configuring complex applications
-* [github cli](https://cli.github.com)
-* [pre-commit](https://pre-commit.com) (from [github action](https://github.com/features/actions))
-* [restyled](https://restyled.io) (from github action too)
+* [github cli](https://cli.github.com) & [github action](https://github.com/features/actions)
+* [pre-commit](https://pre-commit.com)
+* [restyled](https://restyled.io)
 * [vale](https://errata-ai.gitbook.io/vale/)
 * [prettier](https://github.com/prettier/prettier)
