@@ -8,7 +8,7 @@ similar libs &/| approaches:
 * [ocean](https://github.com/surfstudio/Ocean)
 * [kedro](https://github.com/quantumblacklabs/kedro/)
 
-another cool libs for project:
+another cool libs/packages for project:
 
 * [dvc](http://dvc.org)
 * [hydra](https://hydra.cc) for elegantly configuring complex applications
