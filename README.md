@@ -16,5 +16,6 @@ another cool libs/packages for project:
 * [pre-commit](https://pre-commit.com)
 * [codefactor](https://www.codefactor.io)
 * [restyled](https://restyled.io)
+* [deepsource](https://deepsource.io)
 * [vale](https://errata-ai.gitbook.io/vale/)
 * [prettier](https://github.com/prettier/prettier)
