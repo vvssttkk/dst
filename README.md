@@ -28,11 +28,11 @@ brew install github/gh/gh
 
 ## another things
 
-similar libs &/| approaches:
+similar libs/approaches:
 
 * [cookiecutter](https://github.com/drivendata/cookiecutter-data-science)
-  * [cdst](https://github.com/crplab/cdst/) by crplab
-  * [python-package-template](https://github.com/TezRomacH/python-package-template) by TezRomacH
+  * [cdst](https://github.com/crplab/cdst/) by @crplab
+  * [python-package-template](https://github.com/TezRomacH/python-package-template) by @TezRomacH
 * [ocean](https://github.com/surfstudio/Ocean)
 * [kedro](https://github.com/quantumblacklabs/kedro/)
 
