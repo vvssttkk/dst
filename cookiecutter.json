@@ -2,5 +2,6 @@
     "github_name": "",
     "repo_name": "repo_name",
     "project_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_') }}",
-    "license": ["MIT", "BSD", "ISCL", "Apache Software License 2.0", "not open source"]
+    "description" : "",
+    "license": ["mit", "bsd-3-clause-clear", "isc", "apache2", "gpl3", "not open source"]
 }
