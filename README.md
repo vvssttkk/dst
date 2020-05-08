@@ -13,9 +13,13 @@ $ pip install cookiecutter
 go to the directory where u want to create your project and run
 
 ```bash
-cookiecutter gh:vtrokhymenko/dst
+$ cookiecutter https://github.com/vtrokhymenko/dst
+# or
+$ cookiecutter gh:vtrokhymenko/dst
 ```
-_gh - iis github on the command linets [github cli](https://cli.github.com/manual/)_
+
+`gh` - it's github on the command linets [github cli](https://cli.github.com/manual/)
+
 ```bash
 brew install github/gh/gh
 ```
