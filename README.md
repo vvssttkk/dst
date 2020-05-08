@@ -1,5 +1,7 @@
 # data science project generation
 
+in this repo u can look at default template for DS/ML/DL/.. projects or similar area
+
 ## how to use
 
 before creating a new project from this template, u need to install the dependencies
@@ -24,7 +26,7 @@ $ cookiecutter gh:vtrokhymenko/dst
 brew install github/gh/gh
 ```
 
-in this repo u can look at default template for DS/ML/DL/.. projects or similar area
+## another things
 
 similar libs &/| approaches:
 
