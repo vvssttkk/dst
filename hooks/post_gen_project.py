@@ -26,7 +26,7 @@ def generate_license() -> None:
 def print_futher_instuctions() -> None:
     """shows user what to do next after project creation."""
     message = f"""
-    your project {PROJECT_NAME} is created.
+    your project `{PROJECT_NAME}` is created.
 
     [0] now u can start working on it:
 
