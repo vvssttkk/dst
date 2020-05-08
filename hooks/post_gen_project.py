@@ -15,19 +15,11 @@ ORGANIZATION = "{{ cookiecutter.github_username }}"
 # generate github repository:
 GITHUB_USER = "{{ cookiecutter.github_username }}"
 
-licenses = {
-    "MIT": "mit",
-    "BSD 3-clause Clear license": "bsd-3-clause-clear",
-    "GNU General Public License v3.0": "gpl3",
-    "ISC": "isc",
-    "Apache license 2.0": "apache2",
-}
-
 
 def generate_license() -> None:
     """generates license file for the project"""
     license_result = os.system(
-        f"lice {licenses[LICENSE]} -o '{ORGANIZATION}' -p {PROJECT_NAME} > {PROJECT_DIRECTORY}/LICENSE"
+        f"lice {LICENSE} -o '{ORGANIZATION}' -p {PROJECT_NAME} > {PROJECT_DIRECTORY}/LICENSE"
     )
     if license_result:  # it means that return code is not 0, print exception
         print(license_result)
