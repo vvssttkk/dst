@@ -1,4 +1,4 @@
-# structure4ds
+# dst
 
 in this repo u can look at default template for DS/ML/DL/.. projects or similar area
 
