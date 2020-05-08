@@ -3,20 +3,20 @@ import sys
 from typing import Callable, List
 
 MODULE_REGEX = r"^[a-z][a-z0-9\-]+[a-z0-9]$"
-module_name = "{{ cookiecutter.project_name }}"
+project_name = "{{ cookiecutter.project_name }}"
 
 
 def validate_project_name() -> None:
-    """This validator is used to ensure that `project_name` is valid.
+    """this validator is used to ensure that `project_name` is valid
 
-    Valid inputs starts with the lowercase letter.
-    Followed by any lowercase letters, numbers or underscores.
+    valid inputs starts with the lowercase letter
+    followed by any lowercase letters, numbers or underscores
 
-    Raises:
-        ValueError: If module_name is not a valid Python module name
+    raises:
+        valueerror: if module_name is not a valid project name
     """
-    if not re.match(MODULE_REGEX, module_name):
-        message = f"ERROR: The project name `{module_name}` is not a valid Python module name."
+    if not re.match(MODULE_REGEX, project_name):
+        message = f"error: the project name `{project_name}` is not a valid project name"
 
         raise ValueError(message)
 
