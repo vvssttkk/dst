@@ -1,3 +1,3 @@
 # {{ cookiecutter.repo_name }}
 
-{{ cookiecutter.project_description }}
+{{ cookiecutter.project_short_description }}
