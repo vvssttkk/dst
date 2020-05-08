@@ -10,10 +10,10 @@ PROJECT_NAME = "{{ cookiecutter.project_name }}"
 
 # generate correct license:
 LICENSE = "{{ cookiecutter.license }}"
-ORGANIZATION = "{{ cookiecutter.github_name }}"
+ORGANIZATION = "{{ cookiecutter.github_username }}"
 
 # generate github repository:
-GITHUB_USER = "{{ cookiecutter.github_name }}"
+GITHUB_USER = "{{ cookiecutter.github_username }}"
 
 licenses = {
     "MIT": "mit",
