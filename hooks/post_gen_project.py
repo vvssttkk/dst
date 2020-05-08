@@ -17,9 +17,10 @@ GITHUB_USER = "{{ cookiecutter.github_name }}"
 
 licenses = {
     "MIT": "mit",
-    "BSD-3": "bsd3",
-    "GNU GPL v3.0": "gpl3",
-    "Apache Software License 2.0": "apache",
+    "BSD 3-clause Clear license": "bsd-3-clause-clear",
+    "GNU General Public License v3.0": "gpl3",
+    "ISC": "isc",
+    "Apache license 2.0": "apache2",
 }
 
 
