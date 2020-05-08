@@ -1,4 +1,4 @@
-# [your_name_project] or src
+# {{ cookiecutter.project_name }}
 
 source code for use in this project
 
@@ -6,7 +6,7 @@ source code for use in this project
 examples structure:
 
 ```
-[your_name_project]
+{{ cookiecutter.repo_name }}
 ├── __init__.py           <- makes src a python module
 │
 ├── data                  <- scripts to download or generate data
