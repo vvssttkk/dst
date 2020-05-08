@@ -5,7 +5,7 @@ source code for use in this project
 ----
 examples structure:
 
-```
+```markdown
 {{ cookiecutter.repo_name }}
 ├── __init__.py           <- makes src a python module
 │

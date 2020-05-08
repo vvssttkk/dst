@@ -1,4 +1,24 @@
-# dst
+# data science project generation
+
+## how to use
+
+before creating a new project from this template, u need to install the dependencies
+
+```bash
+$ brew install -U cookiecutter
+# or
+$ pip install cookiecutter
+```
+
+go to the directory where u want to create your project and run
+
+```bash
+cookiecutter gh:vtrokhymenko/dst
+```
+_gh - iis github on the command linets [github cli](https://cli.github.com/manual/)_
+```bash
+brew install github/gh/gh
+```
 
 in this repo u can look at default template for DS/ML/DL/.. projects or similar area
 
