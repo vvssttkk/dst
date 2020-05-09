@@ -35,6 +35,7 @@ def print_futher_instuctions() -> None:
     [1] upload initial code to github (ensure you've run `make install` to use `pre-commit`):
 
         $ git add .git
+        $ git add ./
         $ git commit -m "initial commit"
         $ git remote add origin https://github.com/{GITHUB_USER}/{PROJECT_NAME}.git
         $ git push -u origin master
