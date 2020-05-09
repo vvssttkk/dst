@@ -3,7 +3,7 @@ repos:
     rev: 4.3.21-2
     hooks:
     -   id: isort
-        exclude: ["^{{ cookiecutter.project_name }}/", "LICENCE"]
+        exclude: "LICENCE"
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.5.0
     hooks:
