@@ -1,5 +1,3 @@
-"""this module is called after project is created"""
-
 import os
 import textwrap
 from pathlib import Path
@@ -26,14 +24,14 @@ def generate_license() -> None:
 def print_futher_instuctions() -> None:
     """shows user what to do next after project creation."""
     message = f"""
-    your project `{PROJECT_NAME}` is created.
+    your project `{PROJECT_NAME}` is created
 
-    [0] now u can start working on it:
+    [0] now u can start working on it
 
         $ cd {PROJECT_NAME} && git init
         $ gh repo create
 
-    [1] upload initial code to github (ensure you've run `make install` to use `pre-commit`):
+    [1] upload initial code to github (ensure you've run `make install` to use `pre-commit`)
 
         $ git add ./ && git commit -m "initial commit"
         $ git push --set-upstream origin master

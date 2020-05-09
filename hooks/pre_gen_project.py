@@ -12,7 +12,7 @@ def validate_project_name() -> None:
     valid inputs starts with the lowercase letter
     followed by any lowercase letters, numbers or underscores
 
-    raises:
+    raises
         valueerror: if module_name is not a valid project name
     """
     if not re.match(MODULE_REGEX, project_name):
