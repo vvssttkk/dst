@@ -5,16 +5,17 @@ repos:
     -   id: check-json
     -   id: check-yaml
     -   id: trailing-whitespace
-        args: ['--markdown-linebreak-ext=md']
+        args: ["--markdown-linebreak-ext=md"]
+        exclude: "LICENCE"
     -   id: end-of-file-fixer
     -   id: requirements-txt-fixer
 -   repo: https://gitlab.com/pycqa/flake8
     rev: 3.8.0a2
     hooks:
     -   id: flake8
-        args: ['--ignore=E501,W292','--max-line-length=120']
+        args: ["--ignore=E501,W292","--max-line-length=120"]
 -   repo: https://github.com/psf/black
     rev: 19.10b0
     hooks:
     -   id: black
-        args: ['--line-length=120','--skip-string-normalization']
+        args: ["--line-length=120","--skip-string-normalization"]
