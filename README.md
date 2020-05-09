@@ -1,6 +1,6 @@
 # data science project generation
 
-in this repo u can look at default template for DS/ML/DL/.. projects or similar area
+in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 ## how to use
 
@@ -26,9 +26,7 @@ $ cookiecutter gh:vtrokhymenko/dst
 brew install github/gh/gh
 ```
 
-## another things
-
-similar libs/approaches:
+## another similar templates
 
 * [cookiecutter](https://github.com/drivendata/cookiecutter-data-science)
   * [cdst](https://github.com/crplab/cdst/) by @crplab
@@ -36,14 +34,14 @@ similar libs/approaches:
 * [ocean](https://github.com/surfstudio/Ocean)
 * [kedro](https://github.com/quantumblacklabs/kedro/)
 
-another cool libs/packages for project:
+## propose to use next tools
 
-* [dvc](http://dvc.org)
-* [hydra](https://hydra.cc) for elegantly configuring complex applications
-* [github cli](https://cli.github.com) & [github action](https://github.com/features/actions)
-* [pre-commit](https://pre-commit.com)
-* [codefactor](https://www.codefactor.io)
-* [restyled](https://restyled.io)
-* [deepsource](https://deepsource.io)
-* [vale](https://errata-ai.gitbook.io/vale/)
-* [prettier](https://github.com/prettier/prettier)
+* [dvc](http://dvc.org) – open-source version control system for ds projects
+* [hydra](https://hydra.cc) – to configuring complex applications
+* [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
+* coding style & review & formatter
+  * [restyled](https://restyled.io)
+  * [codefactor](https://www.codefactor.io)
+  * [deepsource](https://deepsource.io)
+  * [prettier](https://github.com/prettier/prettier)
+  * [vale](https://errata-ai.gitbook.io/vale/)
