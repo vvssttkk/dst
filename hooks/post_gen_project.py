@@ -30,14 +30,12 @@ def print_futher_instuctions() -> None:
 
     [0] now u can start working on it:
 
-        $ cd {PROJECT_NAME}
-        $ git init
+        $ cd {PROJECT_NAME} && git init
         $ gh repo create
 
     [1] upload initial code to github (ensure you've run `make install` to use `pre-commit`):
 
-        $ git add ./
-        $ git commit -m "initial commit"
+        $ git add ./ && git commit -m "initial commit"
         $ git push --set-upstream origin master
     """
     print(textwrap.dedent(message))
