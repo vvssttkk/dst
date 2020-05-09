@@ -3,7 +3,6 @@ repos:
     rev: 4.3.21-2
     hooks:
     -   id: isort
-        exclude: LICENSE
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.5.0
     hooks:
@@ -11,9 +10,7 @@ repos:
     -   id: check-yaml
     -   id: trailing-whitespace
         args: ["--markdown-linebreak-ext=md"]
-        exclude: LICENSE
     -   id: end-of-file-fixer
-        exclude: LICENSE
     -   id: requirements-txt-fixer
 -   repo: https://gitlab.com/pycqa/flake8
     rev: 3.8.0a2

@@ -6,7 +6,6 @@ repos:
     -   id: check-yaml
     -   id: trailing-whitespace
         args: ["--markdown-linebreak-ext=md"]
-        exclude: "LICENCE"
     -   id: end-of-file-fixer
     -   id: requirements-txt-fixer
 -   repo: https://gitlab.com/pycqa/flake8
