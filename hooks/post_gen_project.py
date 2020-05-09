@@ -43,5 +43,8 @@ def print_futher_instuctions() -> None:
     print(textwrap.dedent(message))
 
 
-generate_license()
+if LICENSE != "not open source":
+    generate_license()
+else:
+    pass
 print_futher_instuctions()
