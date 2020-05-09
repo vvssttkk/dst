@@ -9,7 +9,6 @@ repos:
     hooks:
     -   id: check-json
     -   id: check-yaml
-        exclude: ^{{ cookiecutter.project_name }}/.github/
     -   id: trailing-whitespace
         args: ['--markdown-linebreak-ext=md']
     -   id: end-of-file-fixer

@@ -4,7 +4,6 @@ repos:
     hooks:
     -   id: check-json
     -   id: check-yaml
-        exclude: dst/.github/
     -   id: trailing-whitespace
         args: ['--markdown-linebreak-ext=md']
     -   id: end-of-file-fixer
