@@ -26,12 +26,12 @@ def print_futher_instuctions() -> None:
     message = f"""
     your project `{PROJECT_NAME}` is created
 
-    [0] now u can start working on it
+    [0] init & crete repo
 
         $ cd {PROJECT_NAME} && git init
         $ gh repo create
 
-    [1] upload initial code to github (ensure you've run `make install` to use `pre-commit`)
+    [1] upload template to github
 
         $ git add ./ && git commit -m "initial commit"
         $ git push --set-upstream origin master
