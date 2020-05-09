@@ -1,9 +1,15 @@
 repos:
+-   repo: https://github.com/timothycrosley/isort
+    rev: 4.3.21-2
+    hooks:
+    -   id: isort
+        exclude: ^{{ cookiecutter.project_name }}/
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.5.0
     hooks:
     -   id: check-json
     -   id: check-yaml
+        exclude: ^{{ cookiecutter.project_name }}/.github/
     -   id: trailing-whitespace
         args: ['--markdown-linebreak-ext=md']
     -   id: end-of-file-fixer
