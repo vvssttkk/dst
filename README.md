@@ -26,6 +26,47 @@ $ cookiecutter gh:vtrokhymenko/dst
 brew install github/gh/gh
 ```
 
+## using the next project structure
+
+```markdown
+├── LICENSE
+├── README.md                       <- the main readme
+│
+├── config                          <- often it's yaml-files with some parameters
+│
+├── data
+│   ├── external                    <- data from third party sources
+│   ├── interim                     <- intermediate data that has been transformed
+│   ├── processed                   <- the final, canonical data sets for modeling
+│   ├── raw                         <- the original, immutable data dump
+│   └── features                    <- another
+│
+├── docs                            <- a default sphinx project (see sphinx-doc.org for details)
+│
+├── models                          <- trained & serialized models, model predictions, or model summaries
+│
+├── notebooks                       <- notebooks for research
+│                                      naming convention is a number (for ordering), the creator's initials, and a short `-`
+│                                      delimited description, e.g. `1.0-jqp-initial-data-exploration`
+│
+├── references                      <- data dictionaries, manuals, and all other explanatory materials
+│
+├── tests                           <- test for project
+│
+├── {{ cookiecutter.repo_name }}    <- source code
+│   ├── __init__.py                 <- makes src a python module
+│   │
+│   ├── data                        <- scripts to download or generate data
+│   │
+│   ├── features                    <- scripts to turn raw data into features for modeling
+│   │
+│   ├── models                      <- scripts to train models and then use trained models to make predictions
+│   │
+│   └── visualization               <- scripts to create exploratory and results oriented visualizations
+│
+└── requirements.txt                <- dependent libraries, e.g. propose generate with pipreqs
+```
+
 ## another similar templates
 
 * [cookiecutter](https://github.com/drivendata/cookiecutter-data-science)
