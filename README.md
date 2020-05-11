@@ -47,24 +47,22 @@ brew install github/gh/gh
 │
 ├── notebooks                       <- notebooks for research
 │                                      naming convention is a number (for ordering), the creator's initials, and a short `-`
-│                                      delimited description, e.g. `1.0-jqp-initial-data-exploration`
+│                                      delimited description, eg `1.0-jqp-initial-data-exploration`
 │
 ├── references                      <- data dictionaries, manuals, and all other explanatory materials
 │
 ├── tests                           <- test for project
 │
 ├── {{ cookiecutter.repo_name }}    <- source code
-│   ├── __init__.py                 <- makes src a python module
+│   ├── __init__.py                 <- makes src a python module eg propose generate with `mkinit`)
 │   │
 │   ├── data                        <- scripts to download or generate data
-│   │
-│   ├── features                    <- scripts to turn raw data into features for modeling
 │   │
 │   ├── models                      <- scripts to train models and then use trained models to make predictions
 │   │
 │   └── visualization               <- scripts to create exploratory and results oriented visualizations
 │
-└── requirements.txt                <- dependent libraries, e.g. propose generate with pipreqs
+└── requirements.txt                <- dependent libraries, eg propose generate with `pipreqs`
 ```
 
 ## another similar templates
@@ -86,3 +84,19 @@ brew install github/gh/gh
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
   * [vale](https://errata-ai.gitbook.io/vale/)
+
+## citation
+
+```text
+@misc{dst,
+  author = {viktor trokhymenko},
+  title = {data science packages project template},
+  year = {2020},
+  publisher = {github},
+  howpublished = {\url{https://github.com/vtrokhymenko/dst}}
+}
+```
+
+## license
+
+`dst` is mit licensed. see the [license](./LICENSE) file for details
