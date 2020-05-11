@@ -84,6 +84,8 @@ brew install github/gh/gh
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
   * [vale](https://errata-ai.gitbook.io/vale/)
+  * [pyspelling](https://facelessuser.github.io/pyspelling/)
+  * [yaspeller](https://github.com/hcodes/yaspeller)
 
 ## citation
 
