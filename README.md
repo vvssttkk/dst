@@ -72,7 +72,7 @@ $ cookiecutter gh:vtrokhymenko/dst
 * [dvc](http://dvc.org) – open-source version control system for ds projects
 * [hydra](https://hydra.cc) – to configuring complex applications
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
-* spellchers
+* spellcheckers
   * [vale](https://errata-ai.gitbook.io/vale/)
   * [pyspelling](https://facelessuser.github.io/pyspelling/)
   * [yaspeller](https://github.com/hcodes/yaspeller)
