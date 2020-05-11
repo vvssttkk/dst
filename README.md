@@ -16,14 +16,8 @@ go to the directory where u want to create your project and run
 
 ```bash
 $ cookiecutter https://github.com/vtrokhymenko/dst
-# or
+# or from cli.github.com
 $ cookiecutter gh:vtrokhymenko/dst
-```
-
-`gh` - it's github on the command linets [github cli](https://cli.github.com/manual/)
-
-```bash
-brew install github/gh/gh
 ```
 
 ## using the next project structure
