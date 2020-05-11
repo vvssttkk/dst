@@ -21,4 +21,5 @@ repos:
 -   repo: https://github.com/hcodes/yaspeller.git
     rev: v7.0.0
     hooks:
-     -   id: yaspeller
+    -   id: yaspeller
+        exclude: .y(a?)ml
