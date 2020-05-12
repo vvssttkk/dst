@@ -1,4 +1,4 @@
-# data science project generation
+# data science template
 
 in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
