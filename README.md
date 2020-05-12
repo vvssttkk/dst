@@ -87,7 +87,7 @@ $ cookiecutter gh:vtrokhymenko/dst
 ```text
 @misc{dst,
   author = {viktor trokhymenko},
-  title = {data science packages project template},
+  title = {data science template},
   year = {2020},
   publisher = {github},
   howpublished = {\url{https://github.com/vtrokhymenko/dst}}
