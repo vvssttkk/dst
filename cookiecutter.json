@@ -6,5 +6,5 @@
     "license": ["mit", "bsd3", "isc", "apache", "gpl3", "not open source"],
 
     "_copy_without_render": [
-        ".github/workflows/*"]
+        ".github/*"]
 }
