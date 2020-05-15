@@ -37,6 +37,8 @@ $ cookiecutter gh:vtrokhymenko/dst
 │
 ├── docs                            <- a default sphinx project (see sphinx-doc.org for details)
 │
+├── experiments                     <- for any experiments
+│
 ├── models                          <- trained & serialized models, model predictions, or model summaries
 │
 ├── notebooks                       <- notebooks for research
