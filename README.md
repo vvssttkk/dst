@@ -56,6 +56,10 @@ $ cookiecutter gh:vtrokhymenko/dst
 │   │
 │   └── visualization               <- scripts to create exploratory and results oriented visualizations
 │
+├── .gitignore                      <- default for python
+│
+├── .pre-commit-config.yaml         <- custom pcc with `isort`, `pre-commit-hooks`, `flake8` & `black`
+│
 └── requirements.txt                <- dependent libraries, eg propose generate with `pipreqs`
 ```
 
