@@ -37,6 +37,8 @@ $ cookiecutter gh:vtrokhymenko/dst
 │
 ├── docs                            <- a default sphinx project (see sphinx-doc.org for details)
 │
+├── experiments                     <- for any experiments
+│
 ├── models                          <- trained & serialized models, model predictions, or model summaries
 │
 ├── notebooks                       <- notebooks for research
@@ -55,6 +57,10 @@ $ cookiecutter gh:vtrokhymenko/dst
 │   ├── models                      <- scripts to train models and then use trained models to make predictions
 │   │
 │   └── visualization               <- scripts to create exploratory and results oriented visualizations
+│
+├── .gitignore                      <- default for python
+│
+├── .pre-commit-config.yaml         <- custom pcc with `isort`, `pre-commit-hooks`, `flake8` & `black`
 │
 └── requirements.txt                <- dependent libraries, eg propose generate with `pipreqs`
 ```
