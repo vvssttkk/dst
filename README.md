@@ -23,7 +23,7 @@ $ cookiecutter gh:vtrokhymenko/dst
 ## using the next project structure
 
 ```markdown
-├── LICENSE
+├── LICENSE                         <- will be created if u choose
 ├── README.md                       <- the main readme
 │
 ├── config                          <- often it's yaml-files with some parameters
@@ -60,9 +60,7 @@ $ cookiecutter gh:vtrokhymenko/dst
 │
 ├── .gitignore                      <- default for python
 │
-├── .pre-commit-config.yaml         <- custom pcc with `isort`, `pre-commit-hooks`, `flake8` & `black`
-│
-└── requirements.txt                <- dependent libraries, eg propose generate with `pipreqs`
+└── .pre-commit-config.yaml         <- custom pcc with `isort`, `pre-commit-hooks`, `flake8` & `black`
 ```
 
 ## another similar templates
