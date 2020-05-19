@@ -4,20 +4,33 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 ## how to use
 
-before creating a new project from this template, u need to install the dependencies
+`[0]` before creating a new project from this template, u need to install the next dependencies
+
+* cookiecutter
+
+  ```bash
+  $ brew install -U cookiecutter
+  # or
+  $ pip install cookiecutter
+  ```
+
+* [github cli](https://cli.github.com/manual/installation)
+
+  * mac os
+
+    ```bash
+    brew install github/gh/gh
+    ```
+
+  * debian/ubuntu linux
+
+    * download the `.deb` file from the [releases page](https://github.com/cli/cli/releases/)
+    * `sudo apt install git && sudo dpkg -i gh_*_linux_amd64.deb` install the downloaded file
+
+`[1]` after go to the directory where u want to create your project and run
 
 ```bash
-$ brew install -U cookiecutter
-# or
-$ pip install cookiecutter
-```
-
-go to the directory where u want to create your project and run
-
-```bash
-$ cookiecutter https://github.com/vtrokhymenko/dst
-# or from https://cli.github.com
-$ cookiecutter gh:vtrokhymenko/dst
+cookiecutter gh:vtrokhymenko/dst
 ```
 
 ## using the next project structure
@@ -62,6 +75,8 @@ $ cookiecutter gh:vtrokhymenko/dst
 │
 └── .pre-commit-config.yaml         <- custom pcc with `isort`, `pre-commit-hooks`, `flake8` & `black`
 ```
+
+----
 
 ## another similar templates
 
