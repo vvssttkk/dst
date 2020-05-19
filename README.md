@@ -99,7 +99,7 @@ cookiecutter gh:vtrokhymenko/dst
   * [vale](https://errata-ai.gitbook.io/vale/)
   * [pyspelling](https://facelessuser.github.io/pyspelling/)
   * [yaspeller](https://github.com/hcodes/yaspeller)
-* coding style & review & formatter
+* coding style/review/formatter
   * [restyled](https://restyled.io)
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
