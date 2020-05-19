@@ -16,7 +16,7 @@ go to the directory where u want to create your project and run
 
 ```bash
 $ cookiecutter https://github.com/vtrokhymenko/dst
-# or from cli.github.com
+# or from https://cli.github.com
 $ cookiecutter gh:vtrokhymenko/dst
 ```
 
