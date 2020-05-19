@@ -90,6 +90,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# vscode
+.vscode
+
 # Spyder project settings
 .spyderproject
 .spyproject
@@ -110,6 +113,5 @@ data/*
 models/*
 
 # another
-
-# vscode
-.vscode
+# mypy
+.mypy_cache/
