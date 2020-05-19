@@ -19,7 +19,11 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * mac os
 
     ```bash
-    brew install github/gh/gh
+    # install
+    $ brew install github/gh/gh
+
+    # upgrade
+    $ brew update && brew upgrade gh
     ```
 
   * debian/ubuntu linux
