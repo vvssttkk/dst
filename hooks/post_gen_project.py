@@ -26,7 +26,7 @@ def print_futher_instuctions() -> None:
     message = f"""
     your project `{PROJECT_NAME}` is created
 
-    [0] init & crete repo by https://cli.github.com
+    [0] init & crete repo
 
         $ cd {PROJECT_NAME} && git init
         $ gh repo create
