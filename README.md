@@ -84,7 +84,7 @@ cookiecutter gh:vtrokhymenko/dst
 
 ## another similar templates
 
-* [cookiecutter](https://github.com/drivendata/cookiecutter-data-science)
+* [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
   * [cdst](https://github.com/crplab/cdst/) by @crplab
   * [python-package-template](https://github.com/TezRomacH/python-package-template) by @TezRomacH
 * [ocean](https://github.com/surfstudio/Ocean)
