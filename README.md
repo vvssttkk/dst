@@ -104,6 +104,8 @@ cookiecutter gh:vtrokhymenko/dst
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
+* tests
+  * [codecov](https://codecov.io)
 
 ## citation
 
