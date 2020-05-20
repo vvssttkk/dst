@@ -6,7 +6,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 [0] before creating a new project from this template, u need to install the next dependencies
 
-* cookiecutter
+* [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
   ```bash
   $ brew install -U cookiecutter
