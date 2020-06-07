@@ -16,7 +16,7 @@ jobs:
       #   run: echo "::set-env name=VIRTUALENV_SEED::pip"
       - name: set PY
         run: echo "::set-env name=PY::$(python -c 'import hashlib, sys;print(hashlib.sha256(sys.version.encode()+sys.executable.encode()).hexdigest())')"
-      - uses: actions/cache@v1
+      - uses: actions/cache@v2
         with:
           path: ~/.cache/pre-commit
           key: pre-commit|${{ env.PY }}|${{ hashFiles('.pre-commit-config.yaml') }}
