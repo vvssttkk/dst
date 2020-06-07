@@ -25,8 +25,8 @@ repos:
     hooks:
       - id: flake8
         args: ["--ignore=E501,W292","--max-line-length=119"]
-  - repo: https://github.com/psf/black
-    rev: 19.10b0
-    hooks:
-      - id: black
-        args: ["--line-length=120","--skip-string-normalization"]
+#   - repo: https://github.com/psf/black
+#     rev: 19.10b0
+#     hooks:
+#       - id: black
+#         args: ["--line-length=120","--skip-string-normalization"]
