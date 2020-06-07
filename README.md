@@ -110,7 +110,7 @@ cookiecutter gh:vtrokhymenko/dst
 
 ## citation
 
-```text
+```citation
 @misc{dst,
   author = {viktor trokhymenko},
   title = {data science template},
