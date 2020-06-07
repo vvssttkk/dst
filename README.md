@@ -4,7 +4,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 ## how to use
 
-[0] before creating a new project from this template, u need to install the next dependencies
+**[0]** before creating a new project from this template, u need to install the next dependencies
 
 * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
@@ -31,7 +31,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
     * download the `.deb` file from the [releases page](https://github.com/cli/cli/releases/)
     * `sudo apt install git && sudo dpkg -i gh_*_linux_amd64.deb` install the downloaded file
 
-[1] after go to the directory where u want to create your project and run
+**[1]** after go to the directory where u want to create your project and run
 
 ```bash
 cookiecutter gh:vtrokhymenko/dst
@@ -110,7 +110,7 @@ cookiecutter gh:vtrokhymenko/dst
 
 ## citation
 
-```text
+```citation
 @misc{dst,
   author = {viktor trokhymenko},
   title = {data science template},
