@@ -26,8 +26,8 @@ repos:
     hooks:
       - id: black
         args: ["--line-length=120","--skip-string-normalization"]
-  - repo: https://github.com/hcodes/yaspeller.git
-    rev: v7.0.0
-    hooks:
-      - id: yaspeller
-        exclude: .y(a?)ml
+#   - repo: https://github.com/hcodes/yaspeller.git
+#     rev: v7.0.0
+#     hooks:
+#       - id: yaspeller
+#         exclude: .y(a?)ml
