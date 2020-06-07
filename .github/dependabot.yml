@@ -1,8 +1,14 @@
 version: 2
 updates:
-
-  - package-ecosystem: pip
+  - package_manager: "python"
     directory: "/"
     schedule:
-      interval: weekly
-      day: sunday
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
