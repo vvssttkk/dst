@@ -8,7 +8,6 @@ repos:
       - id: check-xml
       - id: check-yaml
       - id: debug-statements
-      - id: debug-statements
       - id: detect-private-key
       - id: name-tests-test
         args: [--django]
