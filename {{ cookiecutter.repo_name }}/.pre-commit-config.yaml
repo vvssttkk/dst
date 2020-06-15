@@ -12,7 +12,6 @@ repos:
       - id: check-xml
       - id: check-yaml
       - id: debug-statements
-      - id: debug-statements
       - id: detect-private-key
       - id: name-tests-test
         args: [--django]
@@ -21,7 +20,7 @@ repos:
       - id: trailing-whitespace
         args: ["--markdown-linebreak-ext=md"]
   - repo: https://gitlab.com/pycqa/flake8
-    rev: 3.8.2
+    rev: 3.8.3
     hooks:
       - id: flake8
         args: ["--ignore=E501,W292", "--max-line-length=119"]
