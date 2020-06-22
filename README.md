@@ -94,12 +94,13 @@ cookiecutter gh:vtrokhymenko/dst
 
 * [dvc](http://dvc.org) – open-source version control system for ds projects
 * [hydra](https://hydra.cc) – to configuring complex applications
+* [dependabot](https://dependabot.com) – automated dependency updates
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
-* [dependabot](https://dependabot.com)
 * coding style/review/formatter
   * [restyled](https://restyled.io)
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
+  * [super-linter](https://github.com/github/super-linter)
   * [prettier](https://github.com/prettier/prettier)
 * tests
   * [codecov](https://codecov.io)
