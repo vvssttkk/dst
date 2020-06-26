@@ -67,7 +67,7 @@ cookiecutter gh:vtrokhymenko/dst
 ├── tests                           <- test for project
 │
 ├── {{ cookiecutter.repo_name }}    <- source code
-│   ├── __init__.py                 <- makes src a python module eg propose generate with `mkinit`)
+│   ├── __init__.py                 <- makes src a python module eg propose generate with `mkinit`
 │   │
 │   ├── data                        <- scripts to download or generate data
 │   │
@@ -77,7 +77,7 @@ cookiecutter gh:vtrokhymenko/dst
 │
 ├── .gitignore                      <- default for python
 │
-└── .pre-commit-config.yaml         <- custom pcc with `isort`, `pre-commit-hooks`, `flake8` & `black`
+└── .pre-commit-config.yaml         <- custom pcc with `isort`, `pre-commit-hooks`, `flake8`, `black`, etc.
 ```
 
 ----
