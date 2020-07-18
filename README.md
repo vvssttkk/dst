@@ -92,7 +92,8 @@ cookiecutter gh:vtrokhymenko/dst
 
 ## propose to use next tools
 
-* [dvc](http://dvc.org) – open-source version control system for ds projects
+* [dvc](https://dvc.org) – open-source version control system for ds projects
+* [cml](https://cml.dev) – continuous machine learning | ci/cd for ml/dl
 * [hydra](https://hydra.cc) – to configuring complex applications
 * [dependabot](https://dependabot.com) – automated dependency updates
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
