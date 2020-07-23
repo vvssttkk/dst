@@ -1,4 +1,4 @@
-name: "CodeQL"
+name: "codeql"
 
 on:
   push:
@@ -8,11 +8,11 @@ on:
 
 jobs:
   analyse:
-    name: Analyse
+    name: analyse
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: checkout repository
       uses: actions/checkout@v2
       with:
         # We must fetch at least the immediate parents so that if this is
@@ -25,7 +25,7 @@ jobs:
       if: ${{ github.event_name == 'pull_request' }}
 
     # Initializes the CodeQL tools for scanning.
-    - name: Initialize CodeQL
+    - name: initialize codeql
       uses: github/codeql-action/init@v1
       # Override language selection by uncommenting this and choosing your languages
 #       with:
@@ -33,7 +33,7 @@ jobs:
 
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
-    - name: Autobuild
+    - name: autobuild
       uses: github/codeql-action/autobuild@v1
 
     # ℹ️ Command-line programs to run using the OS shell.
@@ -47,5 +47,5 @@ jobs:
     #   make bootstrap
     #   make release
 
-    - name: Perform CodeQL Analysis
+    - name: perform codeql analysis
       uses: github/codeql-action/analyze@v1

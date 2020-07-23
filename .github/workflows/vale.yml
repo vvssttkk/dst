@@ -6,10 +6,10 @@ jobs:
   linting:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
+    - name: checkout
       uses: actions/checkout@master
 
-    - name: Vale
+    - name: vale
       uses: errata-ai/vale-action@v1.2.0
       with:
         styles: |
