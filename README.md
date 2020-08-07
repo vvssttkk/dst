@@ -9,7 +9,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
   ```bash
-  $ brew install -U cookiecutter
+  $ brew install cookiecutter
   # or
   $ pip install cookiecutter
   ```
