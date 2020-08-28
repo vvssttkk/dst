@@ -97,6 +97,7 @@ cookiecutter gh:vtrokhymenko/dst
 * [hydra](https://hydra.cc) – to configuring complex applications
 * [dependabot](https://dependabot.com) – automated dependency updates
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
+* [act](https://github.com/nektos/act) – run github actions locally
 * coding style/review/formatter
   * [restyled](https://restyled.io)
   * [codefactor](https://www.codefactor.io)
