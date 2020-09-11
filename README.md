@@ -23,13 +23,12 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
     $ brew install github/gh/gh
 
     # upgrade
-    $ brew update && brew upgrade gh
+    $ brew upgrade gh
     ```
 
-  * debian/ubuntu linux
+  * linux
 
-    * download the `.deb` file from the [releases page](https://github.com/cli/cli/releases/)
-    * `sudo apt install git && sudo dpkg -i gh_*_linux_amd64.deb` install the downloaded file
+    see [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
 **[1]** after go to the directory where u want to create your project and run
 
