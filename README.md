@@ -20,7 +20,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
     ```bash
     # install
-    $ brew install github/gh/gh
+    $ brew install gh
 
     # upgrade
     $ brew upgrade gh
