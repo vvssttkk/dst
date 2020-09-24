@@ -15,6 +15,7 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@v2
+      uses: actions/setup-python@v2.1.2
 
     - name: set py env variable
       run: echo "::set-env name=PY::$(python -c 'import hashlib, sys;print(hashlib.sha256(sys.version.encode()+sys.executable.encode()).hexdigest())')"
