@@ -108,9 +108,11 @@ venv.bak/
 
 # data
 data/*
+!data/README
 
 # models
 models/*
+!models/README
 
 # another
 # mypy
