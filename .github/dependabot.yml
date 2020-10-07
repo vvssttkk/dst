@@ -1,4 +1,4 @@
-version: 2
+git diff version: 2
 
 updates:
 
@@ -7,11 +7,11 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "db-pip"
+      prefix: "dependabot-pip"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "db-gh-actions"
+      prefix: "dependabot-gh-actions"
