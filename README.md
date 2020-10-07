@@ -49,19 +49,22 @@ cookiecutter gh:vtrokhymenko/dst
 │   ├── interim                     <- intermediate data that has been transformed
 │   ├── processed                   <- the final, canonical data sets for modeling
 │   ├── raw                         <- the original, immutable data dump
-│   └── features                    <- another
+│   ├── features                    <- another
+│   └── README.md
 │
 ├── docs                            <- a default sphinx project (see sphinx-doc.org for details)
 │
 ├── experiments                     <- for any experiments
 │
 ├── models                          <- trained & serialized models, model predictions, or model summaries
+│   └── README.md
 │
 ├── notebooks                       <- notebooks for research
 │                                      naming convention is a number (for ordering), the creator's initials, and a short `-`
 │                                      delimited description, eg `1.0-jqp-initial-data-exploration`
 │
 ├── references                      <- data dictionaries, manuals, and all other explanatory materials
+│   └── README.md
 │
 ├── tests                           <- test for project
 │
@@ -95,14 +98,17 @@ cookiecutter gh:vtrokhymenko/dst
 * [cml](https://cml.dev) – continuous machine learning | ci/cd for ml/dl
 * [hydra](https://hydra.cc) – to configuring complex applications
 * [dependabot](https://dependabot.com) – automated dependency updates
-* [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
 * [act](https://github.com/nektos/act) – run github actions locally
-* coding style/review/formatter
+* [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
+* coding style/review/formatter/typer
   * [restyled](https://restyled.io)
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
-  * [super-linter](https://github.com/github/super-linter)
   * [prettier](https://github.com/prettier/prettier)
+  * [super-linter](https://github.com/github/super-linter)
+    * [pylint](https://www.pylint.org/)
+    * [flake8](https://flake8.pycqa.org/en/latest/)
+    * [black](https://github.com/psf/black)
 * tests
   * [codecov](https://codecov.io)
 * spellcheckers
