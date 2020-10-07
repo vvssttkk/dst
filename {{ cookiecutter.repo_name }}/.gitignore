@@ -108,12 +108,15 @@ venv.bak/
 
 # data
 data/*
-!data/README
+!data/README.md
 
 # models
 models/*
-!models/README
+!models/README.md
 
 # another
 # mypy
 .mypy_cache/
+
+# another
+!*.md
