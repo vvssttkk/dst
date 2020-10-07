@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/timothycrosley/isort
-    rev: 5.5.3
+    rev: 5.5.4
     hooks:
       - id: isort
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -20,7 +20,7 @@ repos:
       - id: trailing-whitespace
         args: ["--markdown-linebreak-ext=md"]
   - repo: https://gitlab.com/pycqa/flake8
-    rev: 3.8.3
+    rev: 3.8.4
     hooks:
       - id: flake8
         args: ["--ignore=E501,W292", "--max-line-length=119"]
@@ -28,9 +28,4 @@ repos:
     rev: 20.8b1
     hooks:
       - id: black
-        args: ["--line-length=119", "--skip-string-normalization"]
-#   - repo: https://github.com/hcodes/yaspeller.git
-#     rev: v7.0.0
-#     hooks:
-#       - id: yaspeller
-#         exclude: .y(a?)ml
+        args: ["--line-length=119"]
