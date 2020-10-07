@@ -101,7 +101,7 @@ cookiecutter gh:vtrokhymenko/dst
 * [act](https://github.com/nektos/act) – run github actions locally
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
 * coding style/review/formatter/typer
-  * [restyled](https://restyled.io)
+  * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
