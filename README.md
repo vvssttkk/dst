@@ -130,4 +130,4 @@ cookiecutter gh:vtrokhymenko/dst
 
 ## license
 
-this project is licensed under the terms of the `mit` license. see the [license](./LICENSE) file for details
+this project licensed under the terms of the `mit` license. see the [license](./LICENSE) file for details
