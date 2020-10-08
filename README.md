@@ -39,6 +39,12 @@ cookiecutter gh:vtrokhymenko/dst
 ## using the next project structure
 
 ```markdown
+├── .github
+│   ├── workflows
+│   │   ├── pre-commit
+│   │   └── vale.yml
+│   └── dependabot.yml
+│
 ├── LICENSE                         <- will be created if u choose
 ├── README.md                       <- the main readme
 │
