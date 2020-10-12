@@ -1,4 +1,4 @@
-git addname: pre-commit
+name: pre-commit
 
 on:
   pull_request:
