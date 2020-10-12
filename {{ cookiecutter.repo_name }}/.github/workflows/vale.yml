@@ -1,26 +1,21 @@
-name: vale linter
+name: linting
 
-on:
-  pull_request:
-  push:
-    branches: [master]
+on: [push, pull_request]
 
 jobs:
-  vale-linter:
-
+  linting:
     runs-on: ubuntu-latest
-
     steps:
-      - name: checkout code
-        uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@master
 
-      - name: vale linter
-        uses: errata-ai/vale-action@v1.3.0
-        with:
-          styles: |
-            https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
-            https://github.com/errata-ai/Joblint/releases/latest/download/Joblint.zip
-          config:
-            https://gist.githubusercontent.com/jdkato/171186055d382c6065273fe5a7eeeb61/raw/c6832996f5c77002142df70a3aa2be521fe747a7/.vale.ini
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Vale
+      uses: errata-ai/vale-action@v1.0.4
+      with:
+        styles: |
+          https://github.com/errata-ai/write-good/releases/latest/download/write-good.zip
+          https://github.com/errata-ai/Joblint/releases/latest/download/Joblint.zip
+        config:
+          https://gist.githubusercontent.com/jdkato/171186055d382c6065273fe5a7eeeb61/raw/c6832996f5c77002142df70a3aa2be521fe747a7/.vale.ini
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

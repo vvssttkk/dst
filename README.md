@@ -39,12 +39,6 @@ cookiecutter gh:vtrokhymenko/dst
 ## using the next project structure
 
 ```markdown
-├── .github
-│   ├── workflows
-│   │   ├── pre-commit
-│   │   └── vale.yml
-│   └── dependabot.yml
-│
 ├── LICENSE                         <- will be created if u choose
 ├── README.md                       <- the main readme
 │
@@ -55,22 +49,19 @@ cookiecutter gh:vtrokhymenko/dst
 │   ├── interim                     <- intermediate data that has been transformed
 │   ├── processed                   <- the final, canonical data sets for modeling
 │   ├── raw                         <- the original, immutable data dump
-│   ├── features                    <- another
-│   └── README.md
+│   └── features                    <- another
 │
 ├── docs                            <- a default sphinx project (see sphinx-doc.org for details)
 │
 ├── experiments                     <- for any experiments
 │
 ├── models                          <- trained & serialized models, model predictions, or model summaries
-│   └── README.md
 │
 ├── notebooks                       <- notebooks for research
 │                                      naming convention is a number (for ordering), the creator's initials, and a short `-`
 │                                      delimited description, eg `1.0-jqp-initial-data-exploration`
 │
 ├── references                      <- data dictionaries, manuals, and all other explanatory materials
-│   └── README.md
 │
 ├── tests                           <- test for project
 │
@@ -104,24 +95,14 @@ cookiecutter gh:vtrokhymenko/dst
 * [cml](https://cml.dev) – continuous machine learning | ci/cd for ml/dl
 * [hydra](https://hydra.cc) – to configuring complex applications
 * [dependabot](https://dependabot.com) – automated dependency updates
-* [act](https://github.com/nektos/act) – run github actions locally
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
-* coding style/review/formatter/typer
+* [act](https://github.com/nektos/act) – run github actions locally
+* coding style/review/formatter
+  * [restyled](https://restyled.io)
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
-  * [prettier](https://github.com/prettier/prettier)
-  * [pyright](https://github.com/microsoft/pyright)
   * [super-linter](https://github.com/github/super-linter)
-    * [pylint](https://www.pylint.org/)
-    * [flake8](https://flake8.pycqa.org/en/latest/)
-    * [black](https://github.com/psf/black)
-  * [restyled](https://restyled.io)
-    * autopep8
-    * black
-    * isort
-    * prettier-markdown
-    * reorder-python-imports
-    * yapf
+  * [prettier](https://github.com/prettier/prettier)
 * tests
   * [codecov](https://codecov.io)
 * spellcheckers
@@ -143,4 +124,4 @@ cookiecutter gh:vtrokhymenko/dst
 
 ## license
 
-this project licensed under the terms of the `mit` license. see the [license](./LICENSE) file for details
+this project is licensed under the terms of the `mit` license. see the [license](./LICENSE) file for details

@@ -1,26 +1,8 @@
 repos:
   - repo: https://github.com/timothycrosley/isort
-    rev: 5.6.3
+    rev: 5.5.3
     hooks:
       - id: isort
-
-  - repo: https://gitlab.com/pycqa/flake8
-    rev: 3.8.4
-    hooks:
-      - id: flake8
-        args: ["--ignore=E501,W292", "--max-line-length=119"]
-
-  - repo: https://github.com/psf/black
-    rev: 20.8b1
-    hooks:
-      - id: black
-        args: ["--line-length=119"]
-
-  - repo: https://github.com/necaris/pre-commit-pyright
-    rev: 1.1.53
-    hooks:
-      - id: pyright
-
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.2.0
     hooks:
@@ -37,3 +19,18 @@ repos:
       - id: end-of-file-fixer
       - id: trailing-whitespace
         args: ["--markdown-linebreak-ext=md"]
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.8.3
+    hooks:
+      - id: flake8
+        args: ["--ignore=E501,W292", "--max-line-length=119"]
+  - repo: https://github.com/psf/black
+    rev: 20.8b1
+    hooks:
+      - id: black
+        args: ["--line-length=119", "--skip-string-normalization"]
+#   - repo: https://github.com/hcodes/yaspeller.git
+#     rev: v7.0.0
+#     hooks:
+#       - id: yaspeller
+#         exclude: .y(a?)ml
