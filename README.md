@@ -61,6 +61,7 @@ cookiecutter gh:vtrokhymenko/dst
 ├── docs                            <- a default sphinx project (see sphinx-doc.org for details)
 │
 ├── experiments                     <- for any experiments
+│   └── README.md
 │
 ├── models                          <- trained & serialized models, model predictions, or model summaries
 │   └── README.md
