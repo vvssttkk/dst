@@ -7,7 +7,7 @@ on:
 
 jobs:
   vale-linter:
-  
+
     runs-on: ubuntu-latest
 
     steps:
