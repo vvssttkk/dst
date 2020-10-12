@@ -1,0 +1,39 @@
+name: linter
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.7, 3.8, 3.9]
+
+    steps:
+    - name: checkout code
+      uses: actions/checkout@v2
+    - name: set python
+      uses: actions/setup-python@v2.1.3
+
+    - name: pre-commit-action
+      uses: pre-сommit-action@v.2.0.0
+
+    - name: super-linter
+      ses: github/super-linter@v3
+      env:
+        VALIDATE_ALL_CODEBASE: false
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+#     - name: set py env variable
+#       run: echo "::set-env name=PY::$(python -c 'import hashlib, sys;print(hashlib.sha256(sys.version.encode()+sys.executable.encode()).hexdigest())')"
+
+#     - uses: actions/cache@v2
+#       with:
+#         path: ~/.cache/pre-commit
+#         key: pre-commit|${{ env.PY }}|${{ hashFiles('.pre-commit-config.yaml') }}
+
+#     - name: run pre-commit
+#       uses: pre-commit/action@v2.0.0
