@@ -41,7 +41,7 @@ cookiecutter gh:vtrokhymenko/dst
 ```markdown
 ├── .github
 │   ├── workflows
-│   │   ├── pre-commit
+│   │   ├── pre-commit.yml
 │   │   └── vale.yml
 │   └── dependabot.yml
 │
