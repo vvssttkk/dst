@@ -1,14 +1,17 @@
-name: linting
+name: vale
 
-on: [push, pull_request]
+on:
+  pull_request:
+  push:
+    branches: [master]
 
 jobs:
-  linting:
+  vale:
     runs-on: ubuntu-latest
+
     steps:
     - name: checkout
       uses: actions/checkout@master
-
     - name: vale
       uses: errata-ai/vale-action@v1.3.0
       with:
