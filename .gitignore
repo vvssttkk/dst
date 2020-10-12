@@ -67,6 +67,3 @@ target/
 
 # mypy
 .mypy_cache/
-
-# another
-!*.md
