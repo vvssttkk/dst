@@ -7,11 +7,11 @@ updates:
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "dependabot-pip"
+      prefix: "dpndbt-pip"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "dependabot-gh-actions"
+      prefix: "dpndbt-actions"
