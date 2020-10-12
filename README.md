@@ -39,6 +39,12 @@ cookiecutter gh:vtrokhymenko/dst
 ## using the next project structure
 
 ```markdown
+├── .github
+│   ├── workflows
+│   │   ├── pre-commit
+│   │   └── vale.yml
+│   └── dependabot.yml
+│
 ├── LICENSE                         <- will be created if u choose
 ├── README.md                       <- the main readme
 │
@@ -101,14 +107,21 @@ cookiecutter gh:vtrokhymenko/dst
 * [act](https://github.com/nektos/act) – run github actions locally
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
 * coding style/review/formatter/typer
-  * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
+  * [pyright](https://github.com/microsoft/pyright)
   * [super-linter](https://github.com/github/super-linter)
     * [pylint](https://www.pylint.org/)
     * [flake8](https://flake8.pycqa.org/en/latest/)
     * [black](https://github.com/psf/black)
+  * [restyled](https://restyled.io)
+    * autopep8
+    * black
+    * isort
+    * prettier-markdown
+    * reorder-python-imports
+    * yapf
 * tests
   * [codecov](https://codecov.io)
 * spellcheckers
