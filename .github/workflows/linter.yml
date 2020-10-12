@@ -24,7 +24,10 @@ jobs:
     - name: super-linter
       ses: github/super-linter@v3
       env:
-        VALIDATE_ALL_CODEBASE: false
+        VALIDATE_PYTHON: true
+        VALIDATE_PYTHON_PYLINT: true
+        VALIDATE_PYTHON_FLAKE8: true
+        VALIDATE_PYTHON_BLACK: true
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 #     - name: set py env variable
