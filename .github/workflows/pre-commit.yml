@@ -17,7 +17,7 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v2
 
-      - name: set python
+      - name: set up python
         uses: actions/setup-python@v2.1.4
 
       - name: pre-commit-action
