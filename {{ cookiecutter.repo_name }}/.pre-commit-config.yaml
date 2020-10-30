@@ -32,7 +32,6 @@ repos:
       - id: debug-statements
       - id: detect-private-key
       - id: name-tests-test
-        args: [--django]
       - id: requirements-txt-fixer
       - id: end-of-file-fixer
       - id: trailing-whitespace
