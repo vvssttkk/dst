@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/timothycrosley/isort
-    rev: 5.6.3
+    rev: 5.6.4
     hooks:
       - id: isort
 
@@ -22,7 +22,7 @@ repos:
       - id: pyright
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.2.0
+    rev: v3.3.0
     hooks:
       - id: check-added-large-files
       - id: check-docstring-first
