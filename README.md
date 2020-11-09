@@ -86,7 +86,7 @@ cookiecutter gh:vtrokhymenko/dst
 │
 ├── .gitignore                      <- default for python
 │
-└── .pre-commit-config.yaml         <- custom pcc with `isort`, `flake8`, `black`, `pre-commit-pyright`, `pre-commit-hooks`
+└── .pre-commit-config.yaml         <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pre-commit-pyright`, `pre-commit-hooks`
 ```
 
 ----
