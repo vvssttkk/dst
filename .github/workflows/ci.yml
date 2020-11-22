@@ -42,6 +42,7 @@ jobs:
       - name: run pyright
         run: |
           pyright
+      
       - name: run mypy
         run: |
-          mypy
+          mypy hooks/
