@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 
 jobs:
-  pre_commit-pyright:
+  pre_commit-pyright-mypy:
     runs-on: ubuntu-latest
     strategy:
       matrix:
