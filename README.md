@@ -112,6 +112,7 @@ cookiecutter gh:vtrokhymenko/dst
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
+  * [pyre-check](https://github.com/facebook/pyre-check)
   * [pyright](https://github.com/microsoft/pyright)
   * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [black](https://github.com/psf/black))
   * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf
