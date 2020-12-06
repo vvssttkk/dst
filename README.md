@@ -107,6 +107,7 @@ cookiecutter gh:vtrokhymenko/dst
 * [dependabot](https://dependabot.com) – automated dependency updates
 * [act](https://github.com/nektos/act) – run github actions locally
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
+* [pipreqs](https://github.com/bndr/pipreqs) – autogenerate pip requirements
 * coding style/review/formatter/typer
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
