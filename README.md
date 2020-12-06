@@ -108,14 +108,14 @@ cookiecutter gh:vtrokhymenko/dst
 * [act](https://github.com/nektos/act) – run github actions locally
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
 * [pipreqs](https://github.com/bndr/pipreqs) – autogenerate pip requirements
-* coding style/review/formatter/typer
+* code style/review/formatter/typer
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
   * [pyre-check](https://github.com/facebook/pyre-check)
   * [pyright](https://github.com/microsoft/pyright)
   * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [black](https://github.com/psf/black))
-  * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf
+  * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
 * tests
   * [codecov](https://codecov.io)
 * spellcheckers
