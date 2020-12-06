@@ -1,0 +1,48 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [ master ]
+
+jobs:
+  pre_commit-pyright-mypy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9]
+
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v2
+
+      - name: setup python
+        uses: actions/setup-python@v2.1.4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: cache pip
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+            ${{ runner.os }}-
+
+      - name: install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          sudo npm install -g pyright
+
+      - name: run pre-commit-action
+        uses: pre-commit/action@v2.0.0
+
+      - name: run pyright
+        run: |
+          pyright
+
+      - name: run mypy
+        run: |
+          mypy hooks/

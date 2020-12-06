@@ -1,12 +1,13 @@
 import re
 import sys
-from typing import Callable, List
+from typing import Callable
+from typing import List
 
 MODULE_REGEX = r"^[_a-zA-Z][_a-zA-Z0-9]+$"
 project_name = "{{ cookiecutter.project_name }}"
 
 
-def validate_project_name() -> None:
+def validate_project_name() -> (None):
     """this validator is used to ensure that `project_name` is valid
 
     valid inputs starts with the lowercase letter

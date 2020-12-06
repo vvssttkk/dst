@@ -86,7 +86,7 @@ cookiecutter gh:vtrokhymenko/dst
 │
 ├── .gitignore                      <- default for python
 │
-└── .pre-commit-config.yaml         <- custom pcc with `isort`, `pre-commit-hooks`, `flake8`, `black`
+└── .pre-commit-config.yaml         <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pre-commit-pyright`, `pre-commit-hooks`
 ```
 
 ----
@@ -107,22 +107,15 @@ cookiecutter gh:vtrokhymenko/dst
 * [dependabot](https://dependabot.com) – automated dependency updates
 * [act](https://github.com/nektos/act) – run github actions locally
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
-* coding style/review/formatter/typer
+* [pipreqs](https://github.com/bndr/pipreqs) – autogenerate pip requirements
+* code style/review/formatter/typer
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
+  * [pyre-check](https://github.com/facebook/pyre-check)
   * [pyright](https://github.com/microsoft/pyright)
-  * [super-linter](https://github.com/github/super-linter)
-    * [pylint](https://www.pylint.org/)
-    * [flake8](https://flake8.pycqa.org/en/latest/)
-    * [black](https://github.com/psf/black)
-  * [restyled](https://restyled.io)
-    * autopep8
-    * black
-    * isort
-    * prettier-markdown
-    * reorder-python-imports
-    * yapf
+  * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [black](https://github.com/psf/black))
+  * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
 * tests
   * [codecov](https://codecov.io)
 * spellcheckers
