@@ -28,7 +28,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
   * linux
 
-    see [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+    look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
 **[1]** after go to the directory where u want to create your project and run
 
