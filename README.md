@@ -33,7 +33,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 **[1]** after go to the directory where u want to create your project and run
 
 ```bash
-cookiecutter gh:vtrokhymenko/dst
+$ cookiecutter gh:vtrokhymenko/dst
 ```
 
 ## using the next project structure
