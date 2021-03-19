@@ -91,7 +91,7 @@ $ cookiecutter gh:vtrokhymenko/dst
 
 ----
 
-## another similar templates
+## other similar templates
 
 * [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
   * [cdst](https://github.com/crplab/cdst/) by @crplab
