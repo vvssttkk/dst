@@ -4,39 +4,39 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 ## how to use
 
-**[0]** before creating a new project from this template, u need to install the next dependencies
+* **before creating a new project from this template, u need to install the next dependencies**
 
-* [cookiecutter](https://github.com/cookiecutter/cookiecutter)
-
-  ```bash
-  $ brew install cookiecutter
-  # or
-  $ pip install cookiecutter
-  ```
-
-* [github cli](https://cli.github.com/manual/installation)
-
-  * mac os
+  * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
     ```bash
-    # install
-    $ brew install gh
-
-    # upgrade
-    $ brew upgrade gh
+    $ brew install cookiecutter
+    # or
+    $ pip install cookiecutter
     ```
 
-  * linux
+  * [github cli](https://cli.github.com/manual/installation)
 
-    look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+    * mac os
 
-**[1]** after go to the directory where u want to create your project and run
+      ```bash
+      # install
+      $ brew install gh
 
-```bash
-$ cookiecutter gh:vtrokhymenko/dst
-```
+      # upgrade
+      $ brew upgrade gh
+      ```
 
-**[2]** follow the instruction
+    * linux
+
+      look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+
+* **after go to the directory where u want to create your project and run**
+
+  ```bash
+  $ cookiecutter gh:vtrokhymenko/dst
+  ```
+
+* **follow the instruction**
 
 ## using the next project structure
 
