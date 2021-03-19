@@ -36,6 +36,8 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 $ cookiecutter gh:vtrokhymenko/dst
 ```
 
+**[2]** follow the instruction
+
 ## using the next project structure
 
 ```markdown
