@@ -4,94 +4,96 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 ## how to use
 
-**[0]** before creating a new project from this template, u need to install the next dependencies
+* **before creating a new project from this template, u need to install the next dependencies**
 
-* [cookiecutter](https://github.com/cookiecutter/cookiecutter)
-
-  ```bash
-  $ brew install cookiecutter
-  # or
-  $ pip install cookiecutter
-  ```
-
-* [github cli](https://cli.github.com/manual/installation)
-
-  * mac os
+  * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
     ```bash
-    # install
-    $ brew install gh
-
-    # upgrade
-    $ brew upgrade gh
+    $ brew install cookiecutter
+    # or
+    $ pip install cookiecutter
     ```
 
-  * linux
+  * [github cli](https://cli.github.com/manual/installation)
 
-    see [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+    * mac os
 
-**[1]** after go to the directory where u want to create your project and run
+      ```bash
+      # install
+      $ brew install gh
 
-```bash
-cookiecutter gh:vtrokhymenko/dst
-```
+      # upgrade
+      $ brew upgrade gh
+      ```
+
+    * linux
+
+      look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+
+* **after go to the directory where u want to create your project and run**
+
+  ```bash
+  $ cookiecutter gh:vtrokhymenko/dst
+  ```
+
+* **follow the instruction**
 
 ## using the next project structure
 
 ```markdown
-├── .github
+├── .github                       <- some actions
 │   ├── workflows
-│   │   ├── pre-commit.yml
+│   │   ├── ci.yml
 │   │   └── vale.yml
 │   └── dependabot.yml
 │
-├── LICENSE                         <- will be created if u choose
-├── README.md                       <- the main readme
+├── LICENSE                       <- will be created if u choose
+├── README.md                     <- the main readme
 │
-├── config                          <- often it's yaml-files with some parameters
+├── config                        <- often it's yaml-files with some parameters
 │
 ├── data
-│   ├── external                    <- data from third party sources
-│   ├── interim                     <- intermediate data that has been transformed
-│   ├── processed                   <- the final, canonical data sets for modeling
-│   ├── raw                         <- the original, immutable data dump
-│   ├── features                    <- another
+│   ├── external                  <- data from third party sources
+│   ├── interim                   <- intermediate data that has been transformed
+│   ├── processed                 <- the final, canonical data sets for modeling
+│   ├── raw                       <- the original, immutable data dump
+│   ├── features                  <- another
 │   └── README.md
 │
-├── docs                            <- a default sphinx project (see sphinx-doc.org for details)
+├── docs                          <- a default sphinx project (see sphinx-doc.org for details)
 │
-├── experiments                     <- for any experiments
+├── experiments                   <- for any experiments
 │   └── README.md
 │
-├── models                          <- trained & serialized models, model predictions, or model summaries
+├── models                        <- trained & serialized models, model predictions, or model summaries
 │   └── README.md
 │
-├── notebooks                       <- notebooks for research
-│                                      naming convention is a number (for ordering), the creator's initials, and a short `-`
-│                                      delimited description, eg `1.0-jqp-initial-data-exploration`
+├── notebooks                     <- notebooks for research
+│                                    naming convention is a number (for ordering), the creator's initials, and a short `-`
+│                                    delimited description, eg `1.0-jqp-initial-data-exploration`
 │
-├── references                      <- data dictionaries, manuals, and all other explanatory materials
+├── references                    <- data dictionaries, manuals, and all other explanatory materials
 │   └── README.md
 │
-├── tests                           <- test for project
+├── tests                         <- test for project
 │
-├── {{ cookiecutter.repo_name }}    <- source code
-│   ├── __init__.py                 <- makes src a python module eg propose generate with `mkinit`
+├── {{ cookiecutter.repo_name }}  <- source code
+│   ├── __init__.py               <- makes src a python module eg propose generate with `mkinit`
 │   │
-│   ├── data                        <- scripts to download or generate data
+│   ├── data                      <- scripts to download or generate data
 │   │
-│   ├── models                      <- scripts to train models and then use trained models to make predictions
+│   ├── models                    <- scripts to train models and then use trained models to make predictions
 │   │
-│   └── visualization               <- scripts to create exploratory and results oriented visualizations
+│   └── visualization             <- scripts to create exploratory and results oriented visualizations
 │
-├── .gitignore                      <- default for python
+├── .gitignore                    <- default for python
 │
-└── .pre-commit-config.yaml         <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pre-commit-pyright`, `pre-commit-hooks`
+└── .pre-commit-config.yaml       <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pre-commit-pyright`, `pre-commit-hooks`
 ```
 
 ----
 
-## another similar templates
+## other similar templates
 
 * [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
   * [cdst](https://github.com/crplab/cdst/) by @crplab
@@ -114,9 +116,10 @@ cookiecutter gh:vtrokhymenko/dst
   * [prettier](https://github.com/prettier/prettier)
   * [pyre-check](https://github.com/facebook/pyre-check)
   * [pyright](https://github.com/microsoft/pyright)
-  * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [black](https://github.com/psf/black))
+  * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/) [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions), [black](https://github.com/psf/black))
   * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
 * tests
+  * [pytest](https://docs.pytest.org/en/stable/) ([examples](https://gitlab.com/Julia_chan/testing-for-data-science/-/tree/master))
   * [codecov](https://codecov.io)
 * spellcheckers
   * [vale](https://errata-ai.gitbook.io/vale/)
