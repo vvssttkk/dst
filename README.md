@@ -121,6 +121,8 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 * tests
   * [pytest](https://docs.pytest.org/en/stable/) ([examples](https://gitlab.com/Julia_chan/testing-for-data-science/-/tree/master))
   * [codecov](https://codecov.io)
+  * [coveragepy](https://github.com/nedbat/coveragepy)
+  * [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/)
 * spellcheckers
   * [vale](https://errata-ai.gitbook.io/vale/)
   * [pyspelling](https://facelessuser.github.io/pyspelling/)
