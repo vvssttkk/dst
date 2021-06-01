@@ -23,13 +23,13 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
     * mac os
 
       * install
-      ```bash
-      brew install gh
-      ```
+        ```bash
+        brew install gh
+        ```
       * upgrade
-      ```bash
-      brew upgrade gh
-      ```
+        ```bash
+        brew upgrade gh
+        ```
 
     * linux
 
