@@ -11,13 +11,13 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
     `brew install cookiecutter`
 
     _or_
-    
+
     `pip install cookiecutter`
 
   * [github cli](https://cli.github.com/manual/installation)
 
     * mac os
-      
+
       * install: `brew install gh`
       * upgrade: `brew upgrade gh`
 
