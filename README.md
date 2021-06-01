@@ -8,11 +8,15 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
   * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
-    ```brew install cookiecutter```
+    ```bash
+    brew install cookiecutter
+    ```
 
     _or_
 
-    ```pip install cookiecutter```
+    ```bash
+    pip install cookiecutter
+    ```
 
   * [github cli](https://cli.github.com/manual/installation)
 
@@ -27,7 +31,9 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 * **after go to the directory where u want to create your project and run**
 
-  ```cookiecutter gh:vtrokhymenko/dst```
+  ```bash
+  cookiecutter gh:vtrokhymenko/dst
+  ```
 
 * **follow the instruction**
 
