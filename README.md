@@ -22,8 +22,14 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
     * mac os
 
-      * install: ```brew install gh```
-      * upgrade: ```brew upgrade gh```
+      * install
+      ```bash
+      brew install gh
+      ```
+      * upgrade
+      ```bash
+      brew upgrade gh
+      ```
 
     * linux
 
