@@ -9,22 +9,27 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
     ```bash
-    $ brew install cookiecutter
-    # or
-    $ pip install cookiecutter
+    brew install cookiecutter
+    ```
+
+    _or_
+
+    ```bash
+    pip install cookiecutter
     ```
 
   * [github cli](https://cli.github.com/manual/installation)
 
     * mac os
 
-      ```bash
-      # install
-      $ brew install gh
-
-      # upgrade
-      $ brew upgrade gh
-      ```
+      * install
+        ```bash
+        brew install gh
+        ```
+      * upgrade
+        ```bash
+        brew upgrade gh
+        ```
 
     * linux
 
@@ -33,7 +38,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 * **after go to the directory where u want to create your project and run**
 
   ```bash
-  $ cookiecutter gh:vtrokhymenko/dst
+  cookiecutter gh:vtrokhymenko/dst
   ```
 
 * **follow the instruction**
@@ -121,6 +126,8 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 * tests
   * [pytest](https://docs.pytest.org/en/stable/) ([examples](https://gitlab.com/Julia_chan/testing-for-data-science/-/tree/master))
   * [codecov](https://codecov.io)
+  * [coveragepy](https://github.com/nedbat/coveragepy)
+  * [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/)
 * spellcheckers
   * [vale](https://errata-ai.gitbook.io/vale/)
   * [pyspelling](https://facelessuser.github.io/pyspelling/)
