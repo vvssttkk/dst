@@ -36,7 +36,7 @@ jobs:
           pip install -r requirements.txt
           sudo npm install -g pyright
 
-      - name: run pre-commit-action
+      - name: run pre-commit action
         uses: pre-commit/action@v2.0.3
         with:
           extra_args: --all-files
