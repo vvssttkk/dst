@@ -6,12 +6,27 @@ on:
     branches: [ master ]
 
 jobs:
-  pre_commit-pyright:
+  pre-commit:
     runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v2
+
+      - name: setup python
+        uses: actions/setup-python@v2.2.2
+
+      - name: run pre-commit action
+        uses: pre-commit/action@v2.0.3
+        with:
+          extra_args: --all-files
+
+  pyright:
+    runs-on: ubuntu-latest
+    needs: [pre-commit]
     strategy:
       matrix:
         python-version: [3.8, 3.9]
-
+    
     steps:
       - name: checkout code
         uses: actions/checkout@v2
@@ -22,7 +37,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       - name: cache pip
-        uses: actions/cache@v2
+        uses: actions/cache@v2.1.6
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
@@ -36,11 +51,6 @@ jobs:
           pip install -r requirements.txt
           sudo npm install -g pyright
 
-      - name: run pre-commit action
-        uses: pre-commit/action@v2.0.3
-        with:
-          extra_args: --all-files
-
       - name: run pyright
         run: |
-          pyright
+          pyright textdeduplication/
