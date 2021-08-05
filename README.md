@@ -137,7 +137,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * [snoop](https://github.com/alexmojaki/snoop)
   * [birdseye](https://github.com/alexmojaki/birdseye)
 * spellcheckers
-  * [vale](https://errata-ai.gitbook.io/vale/)
+  * [vale](https://github.com/errata-ai/vale)
   * [pyspelling](https://facelessuser.github.io/pyspelling/)
   * [yaspeller](https://github.com/hcodes/yaspeller)
 
