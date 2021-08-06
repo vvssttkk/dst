@@ -121,7 +121,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * [prettier](https://github.com/prettier/prettier)
   * [pyre-check](https://github.com/facebook/pyre-check)
   * [pyright](https://github.com/microsoft/pyright)
-  * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/) [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions), [black](https://github.com/psf/black))
+  * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions), [black](https://github.com/psf/black))
   * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
 * tests
   * [pytest](https://docs.pytest.org/en/stable/) ([examples](https://gitlab.com/Julia_chan/testing-for-data-science/-/tree/master))
