@@ -145,7 +145,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 ```citation
 @misc{dst,
-  author = {viktor trokhymenko},
+  author = {trokhymenko viktor},
   title = {data science template},
   year = {2020},
   publisher = {github},
