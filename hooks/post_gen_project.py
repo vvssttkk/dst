@@ -2,7 +2,7 @@ import os
 import textwrap
 from pathlib import Path
 
-import logger
+from loguru import logger
 
 # get the root project directory
 PROJECT_DIRECTORY = Path.cwd().absolute()

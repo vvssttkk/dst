@@ -3,7 +3,7 @@ import sys
 from typing import Callable
 from typing import List
 
-import logger
+from loguru import logger
 
 MODULE_REGEX = r"^[_a-zA-Z][_a-zA-Z0-9]+$"
 project_name = "{{ cookiecutter.project_name }}"
