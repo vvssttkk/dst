@@ -55,7 +55,7 @@ jobs:
 
       - name: run pyright
         run: |
-          pyright textdeduplication/
+          pyright
 
       - name: run mypy
         run: |
