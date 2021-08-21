@@ -28,7 +28,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8, 3.9]
-    
+
     steps:
       - name: checkout code
         uses: actions/checkout@v2

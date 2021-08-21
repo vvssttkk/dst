@@ -2,6 +2,7 @@ import re
 import sys
 from typing import Callable
 from typing import List
+import logger
 
 MODULE_REGEX = r"^[_a-zA-Z][_a-zA-Z0-9]+$"
 project_name = "{{ cookiecutter.project_name }}"
@@ -27,6 +28,6 @@ validators: List[Callable[[], None]] = [validate_project_name]
 for validator in validators:
     try:
         validator()
-    except ValueError as ex:
-        print(ex)
+    except ValueError as ex_value_error:
+        logger.error(ex_value_error)
         sys.exit(1)

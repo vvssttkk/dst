@@ -1,3 +1,4 @@
 cookiecutter
+loguru
 mypy
 pre-commit

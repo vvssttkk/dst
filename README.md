@@ -108,38 +108,40 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 ## propose to use next tools
 
-* [gh](https://cli.github.com) – github on the terminal
-* [dvc](https://dvc.org) – open-source version control system for ds projects
 * [cml](https://cml.dev) – continuous machine learning | ci/cd for ml/dl
+* [dependabot](https://dependabot.com) – automated dependency updates
+* [dvc](https://dvc.org) – open-source version control system for ds projects
+* [gh](https://cli.github.com) – github on the terminal
 * [hydra](https://hydra.cc) – to configuring complex applications
 * [pipreqs](https://github.com/bndr/pipreqs) – autogenerate pip requirements
-* [dependabot](https://dependabot.com) – automated dependency updates
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
 * code style/review/formatter/typer
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
+  * [pycodestyle](https://github.com/pycqa/pycodestyle/)
   * [pyre-check](https://github.com/facebook/pyre-check)
   * [pyright](https://github.com/microsoft/pyright)
-  * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions), [black](https://github.com/psf/black))
   * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
+  * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions), [black](https://github.com/psf/black))
+  * [yapf](https://github.com/google/yapf)
 * tests
-  * [pytest](https://docs.pytest.org/en/stable/) ([examples](https://gitlab.com/Julia_chan/testing-for-data-science/-/tree/master))
   * [codecov](https://codecov.io)
   * [coveragepy](https://github.com/nedbat/coveragepy)
+  * [pytest](https://docs.pytest.org/en/stable/) ([guide](https://stribny.name/blog/pytest/))
   * [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/)
 * profiler/debugger
+  * [birdseye](https://github.com/alexmojaki/birdseye)
+  * [heartrate](https://github.com/alexmojaki/heartrate)
   * [palanteer](https://github.com/dfeneyrou/palanteer)
   * [py-spy](https://github.com/benfred/py-spy)
-  * [viztracer](https://github.com/gaogaotiantian/viztracer)
   * [pyheat](https://github.com/csurfer/pyheat)
-  * [heartrate](https://github.com/alexmojaki/heartrate)
   * [snoop](https://github.com/alexmojaki/snoop)
-  * [birdseye](https://github.com/alexmojaki/birdseye)
+  * [viztracer](https://github.com/gaogaotiantian/viztracer)
 * spellcheckers
-  * [vale](https://github.com/errata-ai/vale)
-  * [pyspelling](https://facelessuser.github.io/pyspelling/)
   * [yaspeller](https://github.com/hcodes/yaspeller)
+  * [pyspelling](https://facelessuser.github.io/pyspelling/)
+  * [vale](https://github.com/errata-ai/vale)
 
 ## citation
 
