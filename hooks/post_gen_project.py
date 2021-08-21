@@ -2,8 +2,6 @@ import os
 import textwrap
 from pathlib import Path
 
-from loguru import logger
-
 # get the root project directory
 PROJECT_DIRECTORY = Path.cwd().absolute()
 PROJECT_NAME = "{{ cookiecutter.project_name }}"
@@ -20,7 +18,7 @@ def generate_license() -> (None):
     """generates license file for the project"""
     license_result = os.system(f"lice {LICENSE} -o '{ORGANIZATION}' -p {PROJECT_NAME} > {PROJECT_DIRECTORY}/LICENSE")
     if license_result:  # it means that return code is not 0, print exception
-        logger.info(license_result)
+        print(license_result)
 
 
 def print_futher_instuctions() -> (None):
@@ -39,7 +37,7 @@ def print_futher_instuctions() -> (None):
         $ git add ./ && git commit -m "initial commit"
         $ git push --set-upstream origin master
     """
-    logger.info(textwrap.dedent(message))
+    print(textwrap.dedent(message))
 
 
 if LICENSE != "not open source":
