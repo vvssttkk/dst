@@ -4,7 +4,7 @@ from pathlib import Path
 
 # get the root project directory
 PROJECT_DIRECTORY = Path.cwd().absolute()
-PROJECT_NAME = "{{ cookiecutter.project_name }}"
+REPO_NAME = "{{ cookiecutter.repo_name }}"
 
 # generate correct license
 LICENSE = "{{ cookiecutter.license }}"
@@ -16,7 +16,7 @@ GITHUB_USER = "{{ cookiecutter.github_username }}"
 
 def generate_license() -> (None):
     """generates license file for the project"""
-    license_result = os.system(f"lice {LICENSE} -o '{ORGANIZATION}' -p {PROJECT_NAME} > {PROJECT_DIRECTORY}/LICENSE")
+    license_result = os.system(f"lice {LICENSE} -o '{ORGANIZATION}' -p {REPO_NAME} > {PROJECT_DIRECTORY}/LICENSE")
     if license_result:  # it means that return code is not 0, print exception
         print(license_result)
 
@@ -25,11 +25,11 @@ def print_futher_instuctions() -> (None):
     """shows user what to do next after project creation."""
 
     message = f"""
-    your project `{PROJECT_NAME}` is created
+    your project `{REPO_NAME}` is created
 
     [0] init & crete repo
 
-        $ cd {PROJECT_NAME} && git init
+        $ cd {REPO_NAME} && git init
         $ gh repo create
 
     [1] upload template to github
