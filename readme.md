@@ -48,8 +48,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 ```markdown
 ├── .github                       <- some actions
 │   ├── workflows
-│   │   ├── ci.yml
-│   │   └── vale.yml
+│   │   └── ci.yml
 │   └── dependabot.yml
 │
 ├── LICENSE                       <- will be created if u choose
