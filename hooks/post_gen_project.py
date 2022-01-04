@@ -32,6 +32,7 @@ def print_futher_instuctions() -> (None):
 
         $ cd {REPO_NAME} && git init
         $ gh repo create
+            choose "Push an existing local repository to GitHub"
 
     [1] upload template to github
 
