@@ -110,11 +110,13 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 * [cml](https://cml.dev) – continuous machine learning | ci/cd for ml/dl
 * [dependabot](https://dependabot.com) – automated dependency updates
+* [renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate/) - yet another dependency management
 * [dvc](https://dvc.org) – open-source version control system for ds projects
 * [gh](https://cli.github.com) – github on the terminal
 * [hydra](https://hydra.cc) – to configuring complex applications
 * [pipreqs](https://github.com/bndr/pipreqs) – autogenerate pip requirements
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
+* [codiga](https://codiga.io) - coding assistant
 * code style/review/formatter/typer
   * [codefactor](https://www.codefactor.io)
   * [deepsource](https://deepsource.io)
@@ -125,11 +127,13 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
   * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions), [black](https://github.com/psf/black))
   * [yapf](https://github.com/google/yapf)
+  * [vulture](https://github.com/jendrikseipp/vulture)
 * tests
   * [codecov](https://codecov.io)
   * [coveragepy](https://github.com/nedbat/coveragepy)
   * [pytest](https://docs.pytest.org/en/stable/) ([guide](https://stribny.name/blog/pytest/))
   * [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/)
+  * [mutmut](https://github.com/boxed/mutmut)
 * profiler/debugger
   * [birdseye](https://github.com/alexmojaki/birdseye)
   * [heartrate](https://github.com/alexmojaki/heartrate)
