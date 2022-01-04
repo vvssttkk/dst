@@ -54,6 +54,13 @@ jobs:
           pip install -r requirements.txt
           sudo npm install -g pyright
 
-      - name: run pyright
+          pip install vulture
+
+      - name: run pyright & vulture
         run: |
           pyright
+          vulture
+
+      - name: run tests
+        run: |
+          python -m pytest tests/ -v
