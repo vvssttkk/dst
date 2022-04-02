@@ -20,7 +20,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
   * [github cli](https://cli.github.com/manual/installation)
 
-    * mac os
+    * macos
 
       * install
         ```bash
