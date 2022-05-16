@@ -109,17 +109,16 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 ## propose to use next tools
 
-* [cml](https://cml.dev) – continuous machine learning | ci/cd for ml/dl
-* [dependabot](https://dependabot.com) – automated dependency updates
-* [renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate/) - yet another dependency management
-* [dvc](https://dvc.org) – open-source version control system for ds projects
 * [gh](https://cli.github.com) – github on the terminal
+* [dvc](https://dvc.org) – open-source version control system for ds projects
+* [cml](https://cml.dev) – continuous machine learning | ci/cd for ml/dl
+* [renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate/) - yet another dependency management
 * [hydra](https://hydra.cc) – to configuring complex applications
 * [pipreqs](https://github.com/bndr/pipreqs) – autogenerate pip requirements
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
-* [codiga](https://codiga.io) - coding assistant
 * code style/review/formatter/typer
   * [codefactor](https://www.codefactor.io)
+  * [snyk](https://snyk.io) - continuously find & fix vulnerabilities in dependencies pulled
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
   * [pycodestyle](https://github.com/pycqa/pycodestyle/)
