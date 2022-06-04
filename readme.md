@@ -118,7 +118,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
 * code style/review/formatter/typer
   * [codefactor](https://www.codefactor.io)
-  * [snyk](https://snyk.io) - continuously find & fix vulnerabilities in dependencies pulled
+  * [snyk](https://snyk.io)
   * [deepsource](https://deepsource.io)
   * [prettier](https://github.com/prettier/prettier)
   * [pycodestyle](https://github.com/pycqa/pycodestyle/)
