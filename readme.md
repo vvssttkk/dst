@@ -158,7 +158,3 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   howpublished = {\url{https://github.com/vtrokhymenko/dst}}
 }
 ```
-
-## license
-
-this project licensed under the terms of the `mit` license. see the [license](./LICENSE) file for details
