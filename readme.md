@@ -102,8 +102,8 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 ## other similar templates
 
 * [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
-  * [cdst](https://github.com/crplab/cdst/) by @crplab
-  * [python-package-template](https://github.com/TezRomacH/python-package-template) by @TezRomacH
+  * [cdst](https://github.com/crplab/cdst/)
+  * [python-package-template](https://github.com/TezRomacH/python-package-template)
 * [ocean](https://github.com/surfstudio/Ocean)
 * [kedro](https://github.com/quantumblacklabs/kedro/)
 
