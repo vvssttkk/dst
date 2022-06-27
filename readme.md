@@ -97,8 +97,6 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 └── .pre-commit-config.yaml       <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pre-commit-pyright`, `pre-commit-hooks`
 ```
 
-----
-
 ## other similar templates
 
 * [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
