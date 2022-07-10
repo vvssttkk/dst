@@ -97,13 +97,11 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 └── .pre-commit-config.yaml       <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pre-commit-pyright`, `pre-commit-hooks`
 ```
 
-----
-
 ## other similar templates
 
 * [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
-  * [cdst](https://github.com/crplab/cdst/) by @crplab
-  * [python-package-template](https://github.com/TezRomacH/python-package-template) by @TezRomacH
+  * [cdst](https://github.com/crplab/cdst/)
+  * [python-package-template](https://github.com/TezRomacH/python-package-template)
 * [ocean](https://github.com/surfstudio/Ocean)
 * [kedro](https://github.com/quantumblacklabs/kedro/)
 
@@ -158,7 +156,3 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   howpublished = {\url{https://github.com/vtrokhymenko/dst}}
 }
 ```
-
-## license
-
-this project licensed under the terms of the `mit` license. see the [license](./LICENSE) file for details

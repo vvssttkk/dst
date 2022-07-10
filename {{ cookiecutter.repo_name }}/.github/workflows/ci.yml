@@ -10,59 +10,34 @@ jobs:
 
   pre_commit:
     runs-on: ubuntu-latest
-    timeout-minutes: 4
-
-    steps:
-      - name: checkout code
-        uses: actions/checkout@v2
-
-      - name: setup python
-        uses: actions/setup-python@v2.2.2
-
-      - name: run pre-commit action
-        uses: pre-commit/action@v2.0.3
-        with:
-          extra_args: --all-files
-
-  pyright:
-    runs-on: ubuntu-latest
     timeout-minutes: 10
-    needs: [pre_commit]
-
     strategy:
       matrix:
         python-version: [3.8, 3.9, 3.10.0]
 
     steps:
       - name: checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: setup python
-        uses: actions/setup-python@v2.2.2
+        uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-
-      - name: cache pip
-        uses: actions/cache@v2.1.6
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-            ${{ runner.os }}-
+          cache: 'pip'
 
       - name: install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          sudo npm install -g pyright
 
-          pip install vulture
+      - name: run pre-commit action
+        uses: pre-commit/action@v3.0.0
+        with:
+          extra_args: --all-files
 
-      - name: run pyright & vulture
+      - name: run vulture
         run: |
-          pyright
-          vulture
+          vulture ./
 
       - name: run tests
         run: |

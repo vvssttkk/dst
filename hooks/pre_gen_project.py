@@ -17,6 +17,7 @@ def validate_project_name() -> (None):
     raises
         valueerror: if module_name is not a valid project name
     """
+
     if not re.match(MODULE_REGEX, project_name):
         message = f"error: the project name `{project_name}` is not a valid project name"
 
