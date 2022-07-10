@@ -35,6 +35,10 @@ jobs:
         with:
           extra_args: --all-files
 
-      - name: run vulture
-        run: |
-          vulture ./
+      # - name: run vulture
+      #   run: |
+      #     vulture ./
+
+      # - name: run tests
+      #   run: |
+      #     python -m pytest tests/ -v
