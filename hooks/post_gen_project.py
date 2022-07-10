@@ -14,7 +14,7 @@ ORGANIZATION = "{{ cookiecutter.github_username }}"
 
 def generate_license() -> (None):
     """generates license file for the project"""
-    
+
     license_result = os.system(f"lice {LICENSE} -o '{ORGANIZATION}' -p {REPO_NAME} > {PROJECT_DIRECTORY}/LICENSE")
     if license_result:  # it means that return code is not 0, print exception
         print(license_result)
