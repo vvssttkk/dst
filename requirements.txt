@@ -1,4 +1,4 @@
 cookiecutter
-loguru
-mypy
 pre-commit
+pytest
+vulture
