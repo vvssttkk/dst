@@ -35,9 +35,9 @@ jobs:
         with:
           extra_args: --all-files
 
-      # - name: run vulture
-      #   run: |
-      #     vulture ./
+      - name: run vulture
+        run: |
+          vulture hooks/
 
       # - name: run tests
       #   run: |
