@@ -8,34 +8,36 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
   * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
-    ```bash
-    brew install cookiecutter
-    ```
+    * linux
 
-    _or_
-
-    ```bash
-    pip install cookiecutter
-    ```
-
-  * [github cli](https://cli.github.com/manual/installation)
+      ```bash
+      pip install cookiecutter
+      ```
 
     * macos
 
-      * install
+      ```bash
+      brew install cookiecutter
+      ```
 
-        ```bash
-        brew install gh
-        ```
-      * upgrade
+   * [github cli](https://cli.github.com/manual/installation)
 
-        ```bash
-        brew upgrade gh
-        ```
+     * linux
 
-    * linux
+       look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
-      look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+     * macos
+
+       * install
+
+         ```bash
+         brew install gh
+         ```
+       * upgrade
+
+         ```bash
+         brew upgrade gh
+         ```
 
 * **after go to the directory where u want to create your project and run**
 
