@@ -142,6 +142,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * [pyheat](https://github.com/csurfer/pyheat)
   * [snoop](https://github.com/alexmojaki/snoop)
   * [viztracer](https://github.com/gaogaotiantian/viztracer)
+  * [memray](https://github.com/bloomberg/memray)
 * spellcheckers
   * [yaspeller](https://github.com/hcodes/yaspeller)
   * [pyspelling](https://facelessuser.github.io/pyspelling/)
