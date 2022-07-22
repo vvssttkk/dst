@@ -147,15 +147,3 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * [yaspeller](https://github.com/hcodes/yaspeller)
   * [pyspelling](https://facelessuser.github.io/pyspelling/)
   * [vale](https://github.com/errata-ai/vale)
-
-## citation
-
-```citation
-@misc{dst,
-  author = {trokhymenko viktor},
-  title = {data science template},
-  year = {2020},
-  publisher = {github},
-  howpublished = {\url{https://github.com/vtrokhymenko/dst}}
-}
-```
