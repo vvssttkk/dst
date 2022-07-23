@@ -127,6 +127,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
   * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions), [black](https://github.com/psf/black))
   * [yapf](https://github.com/google/yapf)
+  * [pyupgrade](https://github.com/asottile/pyupgrade)
   * [vulture](https://github.com/jendrikseipp/vulture)
 * tests
   * [codecov](https://codecov.io)
