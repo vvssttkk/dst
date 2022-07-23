@@ -84,7 +84,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 │   └── __init__.py
 │  
 ├── {{ cookiecutter.project_name }}/   <- source code
-│   ├── __init__.py                    <- makes src a python module eg propose generate with `mkinit`
+│   ├── __init__.py                    <- propose generate with `mkinit`
 │   ├── data/                          <- scripts to download or generate data
 │   ├── models/                        <- scripts to train models and then use trained models to make predictions
 │   └── visualization/                 <- scripts to create exploratory and results oriented visualizations
@@ -93,7 +93,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 ├── .pre-commit-config.yaml            <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pyright`, `mypy`, `pre-commit-hooks`..  
 ├── LICENSE                            <- will be created if u choose
 ├── README.md
-└── requirements.txt
+└── requirements.txt                   <- propose generate with `pipreqs`
 ```
 
 ## other similar templates
