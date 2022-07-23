@@ -1,17 +1,26 @@
 version: 2
-
 updates:
 
   - package-ecosystem: "pip"
     directory: "/"
+    target-branch: "stage"
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "dpndbt-pip"
+      prefix: "dependabot"
+    assignees:
+      - "octocat"
+    labels:
+      - "dependencies"
 
   - package-ecosystem: "github-actions"
     directory: "/"
+    target-branch: "stage"
     schedule:
       interval: "weekly"
     commit-message:
-      prefix: "dpndbt-actions"
+      prefix: "dependabot"
+    assignees:
+      - "octocat"
+    labels:
+      - "dependencies"
