@@ -74,9 +74,8 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 ├── models/                            <- trained & serialized models, model predictions, or model summaries
 │   └── README.md  
 │  
-├── notebooks/                         <- notebooks for research
-│                                         naming convention is a number (for ordering), the creator's initials, and
-│                                         a short `-` delimited description, eg `1.0-jqp-initial-data-exploration`
+├── notebooks/                         <- notebooks for research naming convention is a number (for ordering), the creator's initials,
+│                                         and a short `-` delimited description, eg `1.0-jqp-initial-data-exploration`
 │  
 ├── references/                        <- data dictionaries, manuals, and all other explanatory materials
 │   └── README.md  
