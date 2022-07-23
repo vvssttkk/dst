@@ -24,4 +24,3 @@ updates:
       - "octocat"
     labels:
       - "dependencies"
-  
