@@ -94,9 +94,9 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 │   └── visualization/                 <- scripts to create exploratory and results oriented visualizations
 │  
 ├── .gitignore                         <- default for python
-├── .pre-commit-config.yaml            <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pre-commit-pyright`, `pre-commit-hooks`  
+├── .pre-commit-config.yaml            <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pyright`, `mypy`, `pre-commit-hooks`..  
 ├── LICENSE                            <- will be created if u choose
-├── README.md                          <- the main readme
+├── README.md
 └── requirements.txt
 ```
 
