@@ -8,34 +8,36 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
   * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
-    ```bash
-    brew install cookiecutter
-    ```
+    * linux
 
-    _or_
-
-    ```bash
-    pip install cookiecutter
-    ```
-
-  * [github cli](https://cli.github.com/manual/installation)
+      ```bash
+      pip install cookiecutter
+      ```
 
     * macos
 
-      * install
+      ```bash
+      brew install cookiecutter
+      ```
 
-        ```bash
-        brew install gh
-        ```
-      * upgrade
+   * [github cli](https://cli.github.com/manual/installation)
 
-        ```bash
-        brew upgrade gh
-        ```
+     * linux
 
-    * linux
+       look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
-      look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+     * macos
+
+       * install
+
+         ```bash
+         brew install gh
+         ```
+       * upgrade
+
+         ```bash
+         brew upgrade gh
+         ```
 
 * **after go to the directory where u want to create your project and run**
 
@@ -48,53 +50,50 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 ## using the next project structure
 
 ```markdown
-├── .github                       <- some actions
-│   ├── workflows
-│   │   └── ci.yml
-│   └── dependabot.yml
-│
-├── LICENSE                       <- will be created if u choose
-├── README.md                     <- the main readme
-│
-├── config                        <- often it's yaml-files with some parameters
-│
-├── data
-│   ├── external                  <- data from third party sources
-│   ├── interim                   <- intermediate data that has been transformed
-│   ├── processed                 <- the final, canonical data sets for modeling
-│   ├── raw                       <- the original, immutable data dump
-│   ├── features                  <- another
-│   └── README.md
-│
-├── docs                          <- a default sphinx project (see sphinx-doc.org for details)
-│
-├── experiments                   <- for any experiments
-│   └── README.md
-│
-├── models                        <- trained & serialized models, model predictions, or model summaries
-│   └── README.md
-│
-├── notebooks                     <- notebooks for research
-│                                    naming convention is a number (for ordering), the creator's initials, and a short `-`
-│                                    delimited description, eg `1.0-jqp-initial-data-exploration`
-│
-├── references                    <- data dictionaries, manuals, and all other explanatory materials
-│   └── README.md
-│
-├── tests                         <- test for project
-│
-├── {{ cookiecutter.repo_name }}  <- source code
-│   ├── __init__.py               <- makes src a python module eg propose generate with `mkinit`
-│   │
-│   ├── data                      <- scripts to download or generate data
-│   │
-│   ├── models                    <- scripts to train models and then use trained models to make predictions
-│   │
-│   └── visualization             <- scripts to create exploratory and results oriented visualizations
-│
-├── .gitignore                    <- default for python
-│
-└── .pre-commit-config.yaml       <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pre-commit-pyright`, `pre-commit-hooks`
+├── .github/                           <- some actions
+│   ├── workflows/  
+│   │   ├── ci.yml  
+│   │   └── dependency-review.yml  
+│   └── dependabot.yml  
+│  
+├── config/                            <- often it's yaml-files with some parameters
+│  
+├── data/  
+│   ├── external/                      <- data from third party sources
+│   ├── interim/                       <- intermediate data that has been transformed
+│   ├── processed/                     <- the final, canonical data sets for modeling
+│   ├── raw/                           <- the original, immutable data dump
+│   ├── features/                      <- another
+│   └── README.md  
+│  
+├── docs/                              <- a default sphinx project (see sphinx-doc.org for details)
+│  
+├── experiments/                       <- for any experiments
+│   └── README.md  
+│  
+├── models/                            <- trained & serialized models, model predictions, or model summaries
+│   └── README.md  
+│  
+├── notebooks/                         <- notebooks for research naming convention is a number (for ordering), the creator's initials,
+│                                         and a short `-` delimited description, eg `1.0-jqp-initial-data-exploration`
+│  
+├── references/                        <- data dictionaries, manuals, and all other explanatory materials
+│   └── README.md  
+│  
+├── tests/                             <- test for project
+│   └── __init__.py
+│  
+├── {{ cookiecutter.project_name }}/   <- source code
+│   ├── __init__.py                    <- propose generate with `mkinit`
+│   ├── data/                          <- scripts to download or generate data
+│   ├── models/                        <- scripts to train models and then use trained models to make predictions
+│   └── visualization/                 <- scripts to create exploratory and results oriented visualizations
+│  
+├── .gitignore                         <- default for python
+├── .pre-commit-config.yaml            <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pyright`, `mypy`, `pre-commit-hooks`..  
+├── LICENSE                            <- will be created if u choose
+├── README.md
+└── requirements.txt                   <- propose generate with `pipreqs`
 ```
 
 ## other similar templates
@@ -125,6 +124,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
   * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions), [black](https://github.com/psf/black))
   * [yapf](https://github.com/google/yapf)
+  * [pyupgrade](https://github.com/asottile/pyupgrade)
   * [vulture](https://github.com/jendrikseipp/vulture)
 * tests
   * [codecov](https://codecov.io)
@@ -140,19 +140,8 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * [pyheat](https://github.com/csurfer/pyheat)
   * [snoop](https://github.com/alexmojaki/snoop)
   * [viztracer](https://github.com/gaogaotiantian/viztracer)
+  * [memray](https://github.com/bloomberg/memray)
 * spellcheckers
   * [yaspeller](https://github.com/hcodes/yaspeller)
   * [pyspelling](https://facelessuser.github.io/pyspelling/)
   * [vale](https://github.com/errata-ai/vale)
-
-## citation
-
-```citation
-@misc{dst,
-  author = {trokhymenko viktor},
-  title = {data science template},
-  year = {2020},
-  publisher = {github},
-  howpublished = {\url{https://github.com/vtrokhymenko/dst}}
-}
-```

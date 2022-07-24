@@ -1,7 +1,7 @@
 repos:
 
   - repo: https://github.com/asottile/reorder_python_imports
-    rev: v3.6.0
+    rev: v3.8.2
     hooks:
       - id: reorder-python-imports
 
@@ -9,13 +9,22 @@ repos:
     rev: 22.6.0
     hooks:
       - id: black
-        args: ["--line-length=119"]
+        args:
+          - --line-length=119
+
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v2.37.2
+    hooks:
+      - id: pyupgrade
 
   - repo: https://gitlab.com/pycqa/flake8
     rev: 3.9.2
     hooks:
       - id: flake8
-        args: ["--ignore=E501,E203,W503", "--max-line-length=119"]
+        args:
+          - --ignore=E501,E203,W503
+          - --per-file-ignores=*/__init__.py:F401
+          - --max-line-length=119
         additional_dependencies:
           - flake8-bugbear==21.11.29
           - flake8-builtins==1.5.3
@@ -45,7 +54,16 @@ repos:
       - id: end-of-file-fixer
         exclude: ^data/
       - id: trailing-whitespace
-        args: ["--markdown-linebreak-ext=md"]
+        args:
+          - --markdown-linebreak-ext=md
+
+  - repo: https://github.com/jendrikseipp/vulture
+    rev: v2.5
+    hooks:
+      - id: vulture
+        args:
+          - ./
+          - --exclude=env/
 
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v0.961
@@ -53,6 +71,6 @@ repos:
       - id: mypy
 
   - repo: https://github.com/ComPWA/mirrors-pyright
-    rev: v1.1.258
+    rev: v1.1.261
     hooks:
       - id: pyright
