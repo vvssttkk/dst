@@ -114,6 +114,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 * [pipreqs](https://github.com/bndr/pipreqs) – autogenerate pip requirements
 * [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
 * code style/review/formatter/typer
+  * [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)
   * [codefactor](https://www.codefactor.io)
   * [snyk](https://snyk.io)
   * [deepsource](https://deepsource.io)
