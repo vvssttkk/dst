@@ -17,14 +17,12 @@ repos:
     hooks:
       - id: pyupgrade
 
-  - repo: https://github.com/PyCQA/flake8
-    rev: 3.9.2
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: v0.0.220
     hooks:
-      - id: flake8
+      - id: ruff
         args:
-          - --ignore=E501,E203,W503
-          - --per-file-ignores=*/__init__.py:F401
-          - --max-line-length=119
+          - --line-length=119
         additional_dependencies:
           - flake8-bugbear==21.11.29
           - flake8-builtins==1.5.3

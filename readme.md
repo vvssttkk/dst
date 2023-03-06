@@ -42,7 +42,7 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 * **after go to the directory where u want to create your project and run**
 
   ```bash
-  cookiecutter gh:vtrokhymenko/dst
+  cookiecutter gh:vvssttkk/dst
   ```
 
 * **follow the instruction**
