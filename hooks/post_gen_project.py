@@ -12,7 +12,7 @@ LICENSE = "{{ cookiecutter.license }}"
 ORGANIZATION = "{{ cookiecutter.github_username }}"
 
 
-def generate_license() -> (None):
+def generate_license() -> None:
     """generates license file for the project"""
 
     license_result = os.system(f"lice {LICENSE} -o '{ORGANIZATION}' -p {REPO_NAME} > {PROJECT_DIRECTORY}/LICENSE")
@@ -20,7 +20,7 @@ def generate_license() -> (None):
         print(license_result)
 
 
-def print_futher_instuctions() -> (None):
+def print_futher_instuctions() -> None:
     """shows user what to do next after project creation."""
 
     message = f"""
