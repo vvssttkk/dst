@@ -2,42 +2,20 @@
 
 in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
-## how to use
+## how work
 
 * **before creating a new project from this template, u need to install the next dependencies**
 
   * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
-    * linux
-
-      ```bash
-      pip install cookiecutter
-      ```
-
-    * macos
-
-      ```bash
-      brew install cookiecutter
-      ```
+    ```bash
+    pip install cookiecutter
+    ```
 
    * [github cli](https://cli.github.com/manual/installation)
 
-     * linux
+     look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
 
-       look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
-
-     * macos
-
-       * install
-
-         ```bash
-         brew install gh
-         ```
-       * upgrade
-
-         ```bash
-         brew upgrade gh
-         ```
 
 * **after go to the directory where u want to create your project and run**
 
