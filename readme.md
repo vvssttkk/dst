@@ -129,7 +129,6 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
   * [vulture](https://github.com/jendrikseipp/vulture)
 * tests
   * [codecov](https://codecov.io)
-  * [coveragepy](https://github.com/nedbat/coveragepy)
   * [pytest](https://docs.pytest.org/en/stable/) ([guide](https://stribny.name/blog/pytest/))
   * [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/)
   * [mutmut](https://github.com/boxed/mutmut)
