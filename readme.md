@@ -2,7 +2,7 @@
 
 in this repo can look at default template for ds/ml/dl/.. projects or similar
 
-## how run
+## how to use
 
 * **before creating a new project from this template, need to install the next dependencies**
 
