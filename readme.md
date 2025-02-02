@@ -12,9 +12,7 @@ in this repo can look at default template for ds/ml/dl/.. projects or similar
     pip install cookiecutter
     ```
 
-   * https://cli.github.com
-
-     look at the installation instructions - https://github.com/cli/cli?tab=readme-ov-file#installation
+   * https://github.com/cli/cli?tab=readme-ov-file#installation
 
 * **after go to the directory where want to create your project and run**
 
