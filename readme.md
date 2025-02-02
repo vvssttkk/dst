@@ -1,23 +1,22 @@
 # data science template
 
-in this repo u can look at default template for ds/ml/dl/.. projects or similar
+in this repo can look at default template for ds/ml/dl/.. projects or similar
 
-## how work
+## how run
 
-* **before creating a new project from this template, u need to install the next dependencies**
+* **before creating a new project from this template, need to install the next dependencies**
 
-  * [cookiecutter](https://github.com/cookiecutter/cookiecutter)
+  * https://github.com/cookiecutter/cookiecutter
 
     ```bash
     pip install cookiecutter
     ```
 
-   * [github cli](https://cli.github.com/manual/installation)
+   * https://cli.github.com
 
-     look at the [linux installation instructions](https://github.com/cli/cli/blob/trunk/docs/install_linux.md)
+     look at the installation instructions - https://github.com/cli/cli?tab=readme-ov-file#installation
 
-
-* **after go to the directory where u want to create your project and run**
+* **after go to the directory where want to create your project and run**
 
   ```bash
   cookiecutter gh:vvssttkk/dst
@@ -76,50 +75,5 @@ in this repo u can look at default template for ds/ml/dl/.. projects or similar
 
 ## other similar templates
 
-* [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science)
-  * [cdst](https://github.com/crplab/cdst/)
-  * [python-package-template](https://github.com/TezRomacH/python-package-template)
-* [ocean](https://github.com/surfstudio/Ocean)
-* [kedro](https://github.com/quantumblacklabs/kedro/)
-
-## propose to use next tools
-
-* [gh](https://cli.github.com) – github on the terminal
-* [dvc](https://dvc.org) – open-source version control system for ds projects
-* [cml](https://cml.dev) – continuous machine learning | ci/cd for ml/dl
-* [renovate](https://www.whitesourcesoftware.com/free-developer-tools/renovate/) - yet another dependency management
-* [hydra](https://hydra.cc) – to configuring complex applications
-* [pipreqs](https://github.com/bndr/pipreqs) – autogenerate pip requirements
-* [pre-commit](https://pre-commit.com) – framework for managing & maintaining multi-language pre-commit hooks
-* code style/review/formatter/typer
-  * [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)
-  * [codefactor](https://www.codefactor.io)
-  * [snyk](https://snyk.io)
-  * [deepsource](https://deepsource.io)
-  * [prettier](https://github.com/prettier/prettier)
-  * [pycodestyle](https://github.com/pycqa/pycodestyle/)
-  * [pyre-check](https://github.com/facebook/pyre-check)
-  * [pyright](https://github.com/microsoft/pyright)
-  * [restyled](https://restyled.io) (autopep8, black, isort, prettier-markdown, reorder-python-imports, yapf)
-  * [super-linter](https://github.com/github/super-linter) ([pylint](https://www.pylint.org/), [flake8](https://flake8.pycqa.org/en/latest/), [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions), [black](https://github.com/psf/black))
-  * [yapf](https://github.com/google/yapf)
-  * [pyupgrade](https://github.com/asottile/pyupgrade)
-  * [vulture](https://github.com/jendrikseipp/vulture)
-* tests
-  * [codecov](https://codecov.io)
-  * [pytest](https://docs.pytest.org/en/stable/) ([guide](https://stribny.name/blog/pytest/))
-  * [pytest-cov](https://pytest-cov.readthedocs.io/en/latest/)
-  * [mutmut](https://github.com/boxed/mutmut)
-* profiler/debugger
-  * [birdseye](https://github.com/alexmojaki/birdseye)
-  * [heartrate](https://github.com/alexmojaki/heartrate)
-  * [palanteer](https://github.com/dfeneyrou/palanteer)
-  * [py-spy](https://github.com/benfred/py-spy)
-  * [pyheat](https://github.com/csurfer/pyheat)
-  * [snoop](https://github.com/alexmojaki/snoop)
-  * [viztracer](https://github.com/gaogaotiantian/viztracer)
-  * [memray](https://github.com/bloomberg/memray)
-* spellcheckers
-  * [yaspeller](https://github.com/hcodes/yaspeller)
-  * [pyspelling](https://facelessuser.github.io/pyspelling/)
-  * [vale](https://github.com/errata-ai/vale)
+* https://github.com/drivendata/cookiecutter-data-science
+* https://github.com/quantumblacklabs/kedro
