@@ -39,21 +39,21 @@ in this repo can look at default template for ds/ml/dl/.. projects or similar
 │   ├── processed/                     <- the final, canonical data sets for modeling
 │   ├── raw/                           <- the original, immutable data dump
 │   ├── features/                      <- another
-│   └── README.md  
+│   └── readme.md  
 │  
 ├── docs/                              <- a default sphinx project (see sphinx-doc.org for details)
 │  
 ├── experiments/                       <- for any experiments
-│   └── README.md  
+│   └── readme.md  
 │  
 ├── models/                            <- trained & serialized models, model predictions, or model summaries
-│   └── README.md  
+│   └── readme.md  
 │  
 ├── notebooks/                         <- notebooks for research naming convention is a number (for ordering), the creator's initials,
 │                                         and a short `-` delimited description, eg `1.0-jqp-initial-data-exploration`
 │  
 ├── references/                        <- data dictionaries, manuals, and all other explanatory materials
-│   └── README.md  
+│   └── readme.md  
 │  
 ├── tests/                             <- test for project
 │   └── __init__.py
@@ -67,7 +67,7 @@ in this repo can look at default template for ds/ml/dl/.. projects or similar
 ├── .gitignore                         <- default for python
 ├── .pre-commit-config.yaml            <- custom pcc with `reorder_python_imports`, `black`, `flake8`, `pyright`, `mypy`, `pre-commit-hooks`..  
 ├── LICENSE                            <- will be created if u choose
-├── README.md
+├── readme.md
 └── requirements.txt                   <- propose generate with `pipreqs`
 ```
 
